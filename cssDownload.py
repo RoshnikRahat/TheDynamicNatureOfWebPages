@@ -2,7 +2,6 @@ import warnings
 warnings.filterwarnings("ignore")
 import os, sys
 from urllib.error import HTTPError
-from skimage.metrics import structural_similarity as ssim
 from selenium import webdriver
 import mysql.connector
 from PIL import Image
@@ -20,6 +19,20 @@ import time
 import itertools
 from subprocess import check_output
 import more_itertools as mit
+import requests
+import time
+from bs4 import BeautifulSoup
+import difflib
+
+
+
+##### GLOBAL VARAIBLE ####
+COUNT =0 # this can be made more meaningful by assocciating it with the current time
+
+CSS_df=pd.DataFrame()
+monitoring_duration= 60 # in seconds
+download_interval=10
+
 def url_2_host(url):
     '''
     Remove http(s):// from the url
@@ -58,12 +71,48 @@ def scroll_to_bottom(driver):
         
     driver.implicitly_wait(10)
     return last_height
-    
+
+def make_filename(url):
+   """Converts a URL into a valid filename with appropriate substitutions.
+
+   Args:
+       url: The URL to convert.
+
+   Returns:
+       The generated filename.
+   """
+
+   # Remove URL schema and query string
+   filename = re.sub(r"^https?://", "", url)
+   filename = re.sub(r"\?.*$", "", filename)
+
+   # Substitute common invalid characters
+   filename = re.sub(r"[^\w\-_. ]", "_", filename)  # Replace any non-word, non-hyphen, non-underscore, non-dot, non-space characters with _
+   filename = re.sub(r"[\s]+", "_", filename)  # Replace multiple whitespaces with a single _
+   filename = filename.strip("_")  # Remove leading/trailing underscores
+
+   # Handle extensions (if present)
+   match = re.search(r"\.[^.]+$", filename)
+   if match:
+       extension = match.group()
+       filename = filename[:-len(extension)]  # Remove extension
+       filename = filename.strip("_")  # Remove leading/trailing underscores after extension removal
+
+   # Truncate filename if it's too long (optional for specific systems)
+   max_length = 255  # Adjust this as needed
+   if len(filename) > max_length:
+       filename = filename[:max_length - len(extension)] + extension  # Ensure extension is preserved
+
+   return filename + extension
+
 def collect_page(url, options):
     '''
     Collects the page data and downloads the images and style sheets from the given URL.
     '''
+
+    global COUNT
     print("Collecting page data")
+    filename_url=make_filename(url)
     # Performance metrics setup for websize 
     logging_prefs = {'performance': 'INFO'}    
     options.set_capability('goog:loggingPrefs', logging_prefs)
@@ -82,26 +131,36 @@ def collect_page(url, options):
 
     # Get style elements
     style_tags = driver.find_elements(By.TAG_NAME, 'style')
-    style_contents = [style_tag.get_attribute('innerHTML') for style_tag in style_tags]
+    style_tag_contents = [style_tag.get_attribute('innerHTML') for style_tag in style_tags]
 
     # Get links to external style sheets
     link_tags = driver.find_elements(By.TAG_NAME, 'link')
     style_urls = [link_tag.get_attribute('href') for link_tag in link_tags if link_tag.get_attribute('rel') == 'stylesheet']
-    print(style_urls)
-    # Download style sheets
+    #contains the url with the links to the css sheets i.e   'https://static.files.bbci.co.uk/orbit/bcb90eb83a0e2941e357dbcf14018b41/css/orbit-v5-ltr.min.css
+    #print(style_urls)
+    
+    #create a directory to store style sheets
+    path=f"css_files_{filename_url}_{COUNT}"
     try:
-        os.makedirs(f"{host}/styles")  # Create a directory to store style sheets
+        os.makedirs(path)  # Create a directory to store style sheets
     except Exception as e:
         print("Directory already exists")
     
-    for idx, style_content in enumerate(style_contents):
-        with open(f"style{idx}.css", "w") as style_file:
+    for idx, style_content in enumerate(style_tag_contents):
+        with open(path+f"/styleTag_{idx}.css", "w") as style_file:
+            #print("the style content is",style_content)
             style_file.write(style_content)
     
+    retrived_CSS_file_paths=[]
+    # retrives the .css file assocciated with each url
     for idx, style_url in enumerate(style_urls):
-        urllib.request.urlretrieve(style_url, f"stylesheet{idx}.css")
+            file_path =path+ f"/stylesheet_{idx}.css"
+            urllib.request.urlretrieve(style_url, file_path)
+            retrived_CSS_file_paths.append(file_path)
 
     # Continue with the rest of the code...
+    return style_urls,retrived_CSS_file_paths,style_tag_contents
+
 
 options = webdriver.ChromeOptions()
 options.add_argument('--ignore-certificate-errors')
@@ -110,13 +169,6 @@ options.add_argument('--allow-insecure-localhost')
 options.add_argument("--no-sandbox")
 options.add_argument("--disable-dev-shm-usage")
 
-# if MOBILE:
-#     # Mobile emulation, currently configured for Nexus 5
-#     mobile_emulation = {
-#         "deviceMetrics": { "width": PHONE_WIDTH, "height": PHONE_HEIGHT, "pixelRatio": PIXEL_RATIO},
-#         "userAgent": "Mozilla/5.0 (Linux; Android 8.1.0; en-us; Nexus 5 Build/JOP40D) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/115.0.5790.170 Mobile Safari/535.19" }
-#     options.add_experimental_option("mobileEmulation", mobile_emulation)
-#     options.add_experimental_option("excludeSwitches", ["disable-popup-blocking"])
 
 if True:
     options.add_argument('headless')
@@ -127,6 +179,53 @@ options.set_capability("acceptInsecureCerts", True)
 url = "https://www.bbc.com/"
 
 
-results, js_results, total_kbs = collect_page(url, options)
+def compare_CSS_Urls(urlListold,urlListNew):
+    return urlListold==urlListNew
 
-print()
+def compare_CSS_styletag_contents(oldStyleContent,newStyleContent):
+    changes= not(oldStyleContent==newStyleContent)
+    if changes:
+        # additional functionality to compare struvture using url.request.parser if analysis reveals changes
+        try:
+            import css_parser  # Replace with your preferred CSS parser library
+        except ImportError:
+            css_parser = None  # Handle the case where the parser library is missing
+
+
+        structure_changes=[]
+        if css_parser:
+            for content1,content2 in oldStyleContent,newStyleContent:
+                parsed1 = css_parser.parse(content1)
+                parsed2 = css_parser.parse(content2)
+                structure_changes.append(parsed1 == parsed2) 
+                
+        return False,structure_changes
+    return True,[]
+
+
+
+
+
+# we need some global variable to make css file paths unique for each count
+# reminder: move data to csv
+def main():
+    global COUNT
+    start_time = time.time()
+    # This retrives the first CSS files
+
+    style_urls_old,retrived_CSS_file_paths_old,style_tag_contents_old = collect_page(url, options)
+    COUNT+=1
+    while time.time() - start_time < monitoring_duration:
+        # wait for the required interval
+        time.sleep(download_interval)
+        # download the updated CSS
+        style_urls_new,retrived_CSS_file_paths_new,style_tag_contents_new = collect_page(url, options)
+        print(compare_CSS_Urls(style_urls_old,style_urls_new))
+
+
+
+    update_count=0 # populate with the total updates
+    print(f"Monitoring complete. Total updates: {update_count}")
+
+if __name__ == "__main__":
+    main()
