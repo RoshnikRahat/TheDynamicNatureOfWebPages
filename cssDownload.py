@@ -23,15 +23,14 @@ import requests
 import time
 from bs4 import BeautifulSoup
 import difflib
-
+from datetime import datetime
 
 
 ##### GLOBAL VARAIBLE ####
 COUNT =0 # this can be made more meaningful by assocciating it with the current time
 
-CSS_df=pd.DataFrame()
-monitoring_duration= 60 # in seconds
-download_interval=10
+monitoring_duration= 60*5*12*3 # in seconds
+download_interval=1*5 #every 5 mins
 
 def url_2_host(url):
     '''
@@ -210,6 +209,7 @@ def compare_CSS_styletag_contents(oldStyleContent,newStyleContent):
 # reminder: move data to csv
 def main():
     global COUNT
+    CSS_df=pd.DataFrame(columns=['time','COUNT','url','style_urls_new','retrieved_CSS_file_paths_new','style_tag_contents_new','isCSS_URl_Same'])
     start_time = time.time()
     # This retrives the first CSS files
 
@@ -220,7 +220,34 @@ def main():
         time.sleep(download_interval)
         # download the updated CSS
         style_urls_new,retrived_CSS_file_paths_new,style_tag_contents_new = collect_page(url, options)
-        print(compare_CSS_Urls(style_urls_old,style_urls_new))
+        # for CSS there will be three kinds of Comparisions, internal, external_tag and external content
+
+        #external source
+        isCSS_URl_Same=compare_CSS_Urls(style_urls_old,style_urls_new)
+        #internal source comparision
+        is_Internal_CSS_Same=compare_CSS_styletag_contents(style_tag_contents_old,style_tag_contents_new)
+
+        current_datetime = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
+        row_data = {
+            'time':current_datetime,
+            'COUNT': COUNT,
+            'url': url,
+            'style_urls_new': style_urls_new,
+            'retrieved_CSS_file_paths_new': retrived_CSS_file_paths_new,
+            'style_tag_contents_new': style_tag_contents_new,
+            'isCSS_URl_Same':isCSS_URl_Same,
+            'is_Internal_CSS_Same':is_Internal_CSS_Same
+            
+        }
+        # Append the dictionary as a new row to the DataFrame
+        CSS_df.loc[len(CSS_df)] = row_data
+
+        CSS_df.to_csv("CSS_dataFrame")
+        print("Saved to data Frame")
+        
+        #Updating the Values: Important for all comparisions
+        style_urls_old,retrived_CSS_file_paths_old,style_tag_contents_old=style_urls_new,retrived_CSS_file_paths_new,style_tag_contents_new 
+        
 
 
 

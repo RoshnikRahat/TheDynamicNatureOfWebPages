@@ -12,7 +12,7 @@ html = """
 <html>
 <body>
 <iframe src="https://example.com"></iframe>
-<iframe src="https://example2.com">
+<iframe src="https://examp••••••••le2.com">
   <iframe src="https://internal.example.com"></iframe>
 </iframe>
 <iframe src="https://example3.com"></iframe>
