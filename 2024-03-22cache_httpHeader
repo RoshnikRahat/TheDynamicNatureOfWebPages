@@ -1,0 +1,37 @@
+,time,url,IsCacheInfoAvailable,CacheInfo
+0,2024-03-22 15:36:33,https://finance.yahoo.com,True,{'Cache-Control': 'no-store'}
+1,2024-03-22 15:36:34,https://www.lemonde.fr,False,
+2,2024-03-22 15:36:34,https://www.typing.com,True,"{'Cache-Control': 'public, max-age=1800'}"
+3,2024-03-22 15:36:35,https://www.healthline.com,True,"{'cache-control': 'max-age=300, must-revalidate, private'}"
+4,2024-03-22 15:36:35,https://www.livescore.com,True,"{'Cache-Control': 'public, max-age=3600, s-maxage=3600'}"
+5,2024-03-22 15:36:35,https://www.goojara.to,True,"{'Cache-Control': 'no-store, no-cache, must-revalidate'}"
+6,2024-03-22 15:36:36,https://www.amazon.com.tr,False,
+7,2024-03-22 15:36:37,https://www.gov.uk,True,"{'Cache-Control': 'max-age=1, public'}"
+8,2024-03-22 15:36:37,https://www.tjk.org,True,"{'cache-control': 'public, max-age=120'}"
+9,2024-03-22 15:36:39,https://m.economictimes.com,True,{'Cache-Control': 'max-age=0'}
+10,2024-03-22 15:36:39,https://www.bbc.co.uk,True,"{'Cache-Control': 'private, stale-if-error=90, stale-while-revalidate=30, max-age=0, must-revalidate'}"
+11,2024-03-22 15:36:40,https://stackoverflow.com,True,{'cache-control': 'private'}
+12,2024-03-22 15:36:40,https://www.verywellhealth.com,True,"{'cache-control': 'private, no-store'}"
+13,2024-03-22 15:36:41,https://www.diretta.it,True,"{'Cache-Control': 'public, max-age=300'}"
+14,2024-03-22 15:36:42,https://aniwatchtv.to,False,
+15,2024-03-22 15:36:43,https://www.myntra.com,False,
+16,2024-03-22 15:36:44,https://www.turkiye.gov.tr,True,"{'Cache-Control': 'no-store, no-cache, must-revalidate'}"
+17,2024-03-22 15:36:44,https://weather.com,True,"{'Cache-Control': 'max-age=0, no-cache, no-store'}"
+18,2024-03-22 15:36:45,https://www.bloomberg.com,False,
+19,2024-03-22 15:36:46,https://www.cnn.com,True,"{'Cache-Control': 'public, max-age=60'}"
+20,2024-03-22 15:36:47,https://www.dzexams.com,True,"{'Cache-Control': 'private, max-age=432000'}"
+21,2024-03-22 15:36:47,https://health.findanyanswer.net,False,
+22,2024-03-22 15:36:48,https://www.nikkansports.com,True,"{'Cache-Control': 'max-age=0, s-maxage=20'}"
+23,2024-03-22 15:36:49,https://www.netflix.com,True,"{'Cache-Control': 'no-cache, no-store'}"
+24,2024-03-22 15:36:49,https://es.aliexpress.com,True,{'Cache-Control': 'max-age=60'}
+25,2024-03-22 15:36:53,https://www.gov.br,False,
+26,2024-03-22 15:36:55,https://weathernews.jp,False,
+27,2024-03-22 15:36:58,https://www.paypal.com,False,
+28,2024-03-22 15:36:58,https://m.timesofindia.com,True,"{'Cache-Control': 'max-age=0, no-cache, no-store'}"
+29,2024-03-22 15:36:59,https://www.doubtnut.com,True,"{'Cache-Control': 'private, no-cache, no-store, max-age=0, must-revalidate'}"
+30,2024-03-22 15:37:01,https://www.starhealth.in,True,"{'Cache-Control': 'max-age=0, no-cache, no-store'}"
+31,2024-03-22 15:37:02,https://www.cricbuzz.com,True,{'Cache-Control': 'max-age=2'}
+32,2024-03-22 15:37:07,https://www.primevideo.com,True,{'Cache-Control': 'no-cache'}
+33,2024-03-22 15:37:13,https://www.ebay.com,False,
+34,2024-03-22 15:37:14,https://pubmed.ncbi.nlm.nih.gov,True,{'Cache-Control': 'private'}
+35,2024-03-22 15:37:15,https://www.theweathernetwork.com,True,{'Cache-Control': 'public'}

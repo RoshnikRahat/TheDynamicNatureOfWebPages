@@ -6,7 +6,7 @@ import os
 url = 'https://cnn.com/'
 
 # Assuming chromedriver_path is defined somewhere in your script as the path to the ChromeDriver executable
-chrome_driver_path = '/Users/wajihanaveed/Downloads/chromedriver-mac-arm64/chromedriver'
+chrome_driver_path = 'chromedriver'
 # Set up Chrome options
 options = webdriver.ChromeOptions()
 options.add_argument('--headless')  # Run Chrome in headless mode (without opening the browser window)

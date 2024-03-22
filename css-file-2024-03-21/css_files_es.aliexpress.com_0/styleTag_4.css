@@ -1,0 +1,15 @@
+
+.default-hidden-logo{display:none;}
+.header.header-fixed-status{z-index:990;}
+.header-tag-search .hm-right .right-shopcart{z-index: 11;}
+.header-tag-home .site-logo a{width: 240px;height: 76px;}
+.top-lighthouse .nav-user-account .flyout-welcome-text{overflow:hidden;}
+@media (max-width:1230px) {.festival-logo>a>span>img{width: auto !important;}}
+.nav-global .ng-item #switcher-info:hover{color: #ff4747;}
+.top-lighthouse .a11y-link{display:none;}
+body[data-spm="home"] .top-lighthouse .a11y-link{display:block;}
+
+
+.top-lighthouse ._header_qrCode_{display:none; position:absolute; height: 84px; top: 47px; right: 0;}
+
+body[data-spm="home"] .top-lighthouse ._header_qrCode_{display:block !important;}

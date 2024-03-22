@@ -1,0 +1,278 @@
+/* common */
+.headerSearchIcon { position: relative; }
+.headerSearchIcon .open-btn{
+	position: absolute;
+	top:-7px;
+	right:170%;
+	background:url("/search/img/icon_search.png") no-repeat 15px center;
+	background-size: 20px 20px;
+	width:36px;
+	height:30px;
+	cursor: pointer;
+}
+.headerSearchIcon .open-btn.btnactive{
+	background:url("/search/img/icon_close.png") no-repeat 15px center;
+	background-size: 18px 18px;
+}
+.headerSearchIcon .open-btn:after {
+	content: "検索";
+    display: inline-block;
+    position: absolute;
+    top: 8px;
+    right: -36px;
+    color: #0075c2;
+}
+.headerSearchIcon #search-wrap{
+    position:absolute;
+	top:35px;
+    right:0px;
+	z-index: -1;
+	opacity: 0;
+	width:0;
+	transition: all 0.4s;
+}
+.headerSearchIcon #search-wrap.panelactive,
+#search form#searchform,
+#Search form#searchform{
+	opacity: 1;
+	z-index: 3;
+	width:960px;
+	padding:30px 20px;
+	top:35px;
+	background:#0075c2;
+}
+#search form#searchform,
+#Search form#searchform {
+	position: relative;
+	width:100%;
+    margin-top: 20px;
+	padding:20px;
+	top: 0;
+}
+#Search form#searchform { width:auto; }
+
+.headerSearchIcon #search-wrap #searchform{ display: none; }
+.headerSearchIcon #search-wrap.panelactive #searchform{ display: block; }
+.headerSearchIcon #search-wrap input,
+#search form#searchform input,
+#Search form#searchform input{
+	-webkit-appearance:none;
+	outline: none;
+	cursor: pointer;
+	color: #fff;
+}
+.headerSearchIcon #search-wrap input[type="text"],
+#search form#searchform input[type="text"],
+#Search form#searchform input[type="text"] {
+	width: 100%;
+	border: none;
+	border-bottom:1px solid #fff;
+	transition: all 0.5s;
+	letter-spacing: 0.05em;
+    height:46px;
+	padding: 10px;
+    background: #0075c2;
+}
+#Search form#searchform input[type="text"] { font-size: 14px; }
+.headerSearchIcon #search-wrap input[type="text"]:focus,
+.headerSearchIcon #search-wrap input[type="text"]:active,
+#search form#searchform input[type="text"]:focus,
+#search form#searchform input[type="text"]:active,
+#Search form#searchform input[type="text"]:focus,
+#Search form#searchform input[type="text"]:active {
+	background:#0075c2;
+    -webkit-text-fill-color: #fff !important;
+}
+.headerSearchIcon #search-wrap input[type="submit"],
+#search form#searchform input[type="submit"],
+#Search form#searchform input[type="submit"] {
+	position: absolute;
+    top:10px;
+	right:30px;
+	background:url("/search/img/icon_search_white.png") no-repeat right;
+	background-size: 20px 20px;
+	width:30px;
+	height: 60px;
+    border: none;
+}
+.headerSearchIcon #search-wrap input[type="submit"],
+#Search form#searchform input[type="submit"] { top:20px; }
+.headerSearchIcon input[type='text']:-webkit-autofill,
+#search form#searchform input[type='text']:-webkit-autofill,
+#Search form#searchform input[type='text']:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0px 1000px #0075c2 inset;
+    -webkit-text-fill-color: #fff !important;
+}
+/* membersBtn */
+#siteCommonHeader #siteNav { margin: 0 !important; } /* common.cssなのでsass使う */
+.membersBtn {
+	float: right;
+}
+.membersBtn a {
+	display: inline-block;
+    width: 136px;
+    padding: 4px;
+    background: #000000;
+}
+.membersBtn a img {
+	width: 125px;
+}
+/* スマホ　ヘッダー検索 */
+#drawer-search-wrap {
+    width: 100%;
+    display: inline-block;
+}
+#drawer-search-wrap form#searchform {
+    position: relative;
+    margin: 0 10px 20px;
+    border: 1px solid #0075c2;
+    border-radius: 5px;
+}
+#drawer-search-wrap form#searchform input {
+    -webkit-appearance: none;
+    outline: none;
+    color: #333;
+    width: 90%;
+    letter-spacing: 0.05em;
+    height: 20px;
+    padding: 10px;
+    background: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+}
+#drawer-search-wrap form#searchform input[type="submit"] {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: url(/search/img/icon_search_white.png) no-repeat right #0075c2;
+    background-size: 20px 20px;
+    background-position: 12px;
+    width: 40px;
+    height: 40px;
+    border: none;
+    border-radius: 0;
+}
+
+/* top-search */
+#search #output,
+#Search #output {
+    width: 100%;
+    margin: 20px 0;
+}
+#Search #output {
+    padding: 0 10px;
+    box-sizing: border-box;
+}
+#search p.search_result,
+#Search p.search_result {
+	margin-bottom: 10px;
+    line-height: 1.6;
+}
+#search .searchBox,
+#Search .searchBox {
+	display: inline-block;
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 20px;
+    border: 1px solid #9fb0bc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+#search .searchBox a,
+#Search .searchBox a {
+	display: block;
+	width: 100%;
+}
+#search .searchBox a:hover,
+#Search .searchBox a:hover {
+	text-decoration: none;
+}
+#search .searchBox .newsthumb-box,
+#Search .searchBox .newsthumb-box {
+	float: left;
+    width: 120px;
+    height: 120px;
+    margin-right: 10px
+}
+#search .searchBox .newsthumb-box img,
+#Search .searchBox .newsthumb-box img {
+	display: block;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+}
+#search .searchBox .newstext-box {
+    float: right;
+	width: 460px;
+}
+#Search .newstext-box { padding-left: 130px; }
+#search .searchBox .newstext-box h4,
+#search .searchBox .newstext-box p,
+#Search .searchBox .newstext-box h4,
+#Search .searchBox .newstext-box p {
+    line-height: 1.6;
+    font-size: 18px;
+    font-weight: bold;
+}
+#search .searchBox .newstext-box p {
+	font-size: 14px;
+	font-weight: normal;
+}
+#Search .searchBox .newstext-box h4 { font-size: 16px; }
+#Search .searchBox .newstext-box p { display: none; }
+#search .searchBox .newstext-box time,
+#Search .searchBox .newstext-box time {
+	display: block;
+	margin-top: 6px;
+    font-size: 13px;
+    font-size: 1.3rem;
+    color: #9fb0bc;
+}
+#Search .searchBox .newstext-box time { font-size: 14px; }
+#search .searchBox:nth-child(20n),
+#Search .searchBox:nth-child(20n) { margin-bottom: 0; }
+
+/* page */
+#search #routeNav,
+#Search #routeNav { margin-bottom: 10px; }
+#search .pagination-container,
+#Search .pagination-container {
+	margin: 30px 0 0;
+	width: 100%;
+	text-align: center;
+}
+#search .pagination-container ul,
+#Search .pagination-container ul {
+	display: inline-block;
+}
+#search .pagination-container ul li,
+#Search .pagination-container ul li {
+	float: left;
+	margin-bottom: 10px;
+}
+#search .pagination-container ul li a,
+#Search .pagination-container ul li a {
+	display: inline-block;
+	margin-right: 10px;
+	padding: 10px;
+	border: 1px solid #0075c2;
+}
+#search .pagination-container ul li.page.search_navi-active a,
+#Search .pagination-container ul li.page.search_navi-active a {
+	border: none;
+	color: #fff;
+    background: #0075c2;
+    pointer-events: none;
+}
+#search .pagination-container ul li.disabled a,
+#Search .pagination-container ul li.disabled a {
+	display: none;
+	pointer-events: none;
+}
+#search .pagination-container ul li a:hover,
+#Search .pagination-container ul li a:hover { text-decoration: none; }
+#search .pagination-container ul li:last-child a,
+#Search .pagination-container ul li:last-child a { margin-right: 0; }

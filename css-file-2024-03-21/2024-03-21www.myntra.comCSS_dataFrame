@@ -1,0 +1,4 @@
+,time,COUNT,url,style_urls_new,retrieved_CSS_file_paths_new,style_tag_contents_new,isCSS_URl_Same
+0,2024-03-21 14:03:15,1,https://www.myntra.com,[],[],[],True
+1,2024-03-21 14:04:07,1,https://www.myntra.com,[],[],[],True
+2,2024-03-21 14:05:00,1,https://www.myntra.com,[],[],[],True

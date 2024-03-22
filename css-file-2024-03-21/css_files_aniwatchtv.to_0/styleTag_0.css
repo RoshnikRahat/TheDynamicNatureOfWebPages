@@ -1,0 +1,168 @@
+#st-1 {
+  font-family: "Helvetica Neue", Verdana, Helvetica, Arial, sans-serif;;
+  direction: ltr;
+  display: block;
+  opacity: 1;
+  text-align: center;
+  z-index: 94034;
+}
+#st-1.st-animated {
+  -moz-transition: o 0.2s ease-in, p 0.2s ease-in, a 0.2s ease-in, c 0.2s ease-in, i 0.2s ease-in, t 0.2s ease-in, y 0.2s ease-in; -ms-transition: o 0.2s ease-in, p 0.2s ease-in, a 0.2s ease-in, c 0.2s ease-in, i 0.2s ease-in, t 0.2s ease-in, y 0.2s ease-in; -o-transition: o 0.2s ease-in, p 0.2s ease-in, a 0.2s ease-in, c 0.2s ease-in, i 0.2s ease-in, t 0.2s ease-in, y 0.2s ease-in; -webkit-transition: o 0.2s ease-in, p 0.2s ease-in, a 0.2s ease-in, c 0.2s ease-in, i 0.2s ease-in, t 0.2s ease-in, y 0.2s ease-in; transition: o 0.2s ease-in, p 0.2s ease-in, a 0.2s ease-in, c 0.2s ease-in, i 0.2s ease-in, t 0.2s ease-in, y 0.2s ease-in;
+}
+#st-1.st-hidden {
+  opacity: 0;
+}
+
+#st-1.st-preview {
+  display: none!important;
+  opacity: 0!important;
+}
+#st-1.st-hide {
+  display: none;
+}
+#st-1 .st-btn {
+  -moz-box-sizing: border-box;
+-webkit-box-sizing: border-box;
+box-sizing: border-box;
+  -moz-transition: opacity 0.2s ease-in, top 0.2s ease-in; -ms-transition: opacity 0.2s ease-in, top 0.2s ease-in; -o-transition: opacity 0.2s ease-in, top 0.2s ease-in; -webkit-transition: opacity 0.2s ease-in, top 0.2s ease-in; transition: opacity 0.2s ease-in, top 0.2s ease-in;
+  -moz-border-radius: 20px;
+-webkit-border-radius: 20px;
+border-radius: 20px;
+  border: none;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 12px;
+  height: 32px;
+  line-height: 32px;
+  margin-right: 8px;
+  padding: 0 10px;
+  position: relative;
+  text-align: center;
+  top: 0;
+  vertical-align: top;
+  white-space: nowrap;
+}
+#st-1 .st-btn:last-child {
+  margin-right: 0;
+}
+#st-1 .st-btn > svg {
+  height: 16px;
+  width: 16px;
+  position: relative;
+  top: 8px;
+  vertical-align: top;
+}
+#st-1 .st-btn > img {
+  display: inline-block;
+  height: 16px;
+  width: 16px;
+  position: relative;
+  top: 8px;
+  vertical-align: top;
+}
+#st-1 .st-btn > span {
+  -moz-transition: all 0.2s ease-in; -ms-transition: all 0.2s ease-in; -o-transition: all 0.2s ease-in; -webkit-transition: all 0.2s ease-in; transition: all 0.2s ease-in;
+  color: #fff;
+  display: inline-block;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+  min-width: 60px;
+  opacity: 1;
+  padding: 0 6px;
+  position: relative;
+  vertical-align: top;
+}
+#st-1.st-has-labels .st-btn {
+  min-width: 120px;
+}
+#st-1.st-has-labels .st-btn.st-remove-label {
+  min-width: 50px;
+}
+#st-1.st-has-labels .st-btn.st-remove-label > span {
+  display: none;
+}
+#st-1.st-has-labels .st-btn.st-hide-label > span {
+  display: none;
+}
+#st-1 .st-total {
+  color: #555;
+  display: inline-block;
+  font-weight: 500;
+  line-height: 12px;
+  margin-right: 0;
+  max-width: 80px;
+  padding: 4px 8px;
+  text-align: center;
+}
+#st-1 .st-total.st-hidden {
+  display: none;
+}
+#st-1 .st-total > span {
+  font-size: 16px;
+  line-height: 17px;
+  display: block;
+  padding: 0;
+}
+#st-1 .st-total > span.st-shares {
+  font-size: 9px;
+  line-height: 9px;
+}
+#st-1.st-justified {
+  display: flex;
+  text-align: center;
+}
+#st-1.st-justified .st-btn {
+  -moz-flex: 1;
+-ms-flex: 1;
+-webkit-flex: 1;
+flex: 1;
+}#st-1 .st-btn:hover {
+  opacity: .8;
+  top: -4px;
+}#st-1 .st-btn[data-network='telegram'] {
+  background-color: #0088cc
+}
+#st-1 .st-btn[data-network='telegram'] img {
+  filter: 
+}
+#st-1 .st-btn[data-network='telegram'] > span {
+  color: #fff
+}
+#st-1 .st-btn[data-network='twitter'] {
+  background-color: #000000
+}
+#st-1 .st-btn[data-network='twitter'] img {
+  filter: 
+}
+#st-1 .st-btn[data-network='twitter'] > span {
+  color: #fff
+}
+#st-1 .st-btn[data-network='facebook'] {
+  background-color: #4267B2
+}
+#st-1 .st-btn[data-network='facebook'] img {
+  filter: 
+}
+#st-1 .st-btn[data-network='facebook'] > span {
+  color: #fff
+}
+#st-1 .st-btn[data-network='reddit'] {
+  background-color: #ff4500
+}
+#st-1 .st-btn[data-network='reddit'] img {
+  filter: 
+}
+#st-1 .st-btn[data-network='reddit'] > span {
+  color: #fff
+}
+#st-1 .st-btn[data-network='sharethis'] {
+  background-color: #95D03A
+}
+#st-1 .st-btn[data-network='sharethis'] img {
+  filter: 
+}
+#st-1 .st-btn[data-network='sharethis'] > span {
+  color: #fff
+}#st-1 .st-btn[data-network='snapchat'] > span {
+  color: #333};
+}

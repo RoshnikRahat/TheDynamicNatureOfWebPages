@@ -1,0 +1,13 @@
+
+            #mediaWire .heading .powered{font-size: 10px;padding-top: 4px;font-weight: 400;text-transform: uppercase;}
+            #mediaWire ul{white-space:nowrap}
+            #mediaWire li {width: 200px; list-style:none;margin-right:14px;position: relative;z-index: 1;display:inline-block;white-space:normal}
+            #mediaWire li a{font-size: 14px;}
+            #mediaWire li a p ,#mediaWire div li a p{margin-top:7px;}
+		    .mediaWireWidget .nextprev-btn {top: 46%;position: absolute;width: 100%;}
+            .mediaWireWidget .nextprev-btn .btn {width: 26px;height: 25px;position: relative;z-index: 11;background-size: 312px;cursor: pointer;}
+            .mediaWireWidget .nextprev-btn .btn.prev-btn {background-position: -212px -2px;left: -13px;}
+            .mediaWireWidget .nextprev-btn .btn.next-btn {background-position: -241px -2px;right: -11px;}
+            .mediaWireWidget .nextprev-btn .btn.disable{opacity:0.8;cursor: not-allowed;}
+            .mediaWireWidget .moreNews{maqrgin-top:15px}
+		

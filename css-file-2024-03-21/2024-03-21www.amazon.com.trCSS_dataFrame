@@ -1,0 +1,2 @@
+,time,COUNT,url,style_urls_new,retrieved_CSS_file_paths_new,style_tag_contents_new,isCSS_URl_Same
+0,2024-03-21 14:34:15,1,https://www.amazon.com.tr,['https://images-na.ssl-images-amazon.com/images/G/01/AUIClients/AmazonUI-3c913031596ca78a3768f4e934b1cc02ce238101.secure.min._V1_.css'],['css_files_www.amazon.com.tr_1/stylesheet_0.css'],[],True

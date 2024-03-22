@@ -1,0 +1,261 @@
+
+
+@font-face {
+  font-family: "ReithSerif";
+  src: url("https://gn-web-assets.api.bbc.com/assets/fonts/ReithSerif/BBCReithSerif_W_Rg.woff");
+}
+
+#zephr-message-welcome.dismissed {
+  display: none;
+}
+
+#zephr-message-welcome.hidden {
+  display: none;
+}
+
+#zephr-message-welcome {
+  font-size: 62.5%;
+  font-size: 10px;
+  font-family: __reithSerif_3e9265, ReithSerif, 'Times New Roman', sans-serif;
+  font-weight: 400;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 999999;
+  width: 100%;
+}
+
+#zephr-message-welcome * {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 62.5%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+#zephr-message-welcome .zephr-overlay {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  z-index: 4001;
+  overflow: auto;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+#zephr-message-welcome .zephr-wrapper {
+  position: relative;
+  margin: 5%;
+  margin-top: 95px;
+  max-width: 570px;
+}
+
+#zephr-message-welcome .zephr-inner {
+  display: flex;
+  justify-content: center;
+  background-color: #f1f1f1;
+}
+
+#zephr-message-welcome .content {
+  display: inline-block;
+}
+
+#zephr-message-welcome .zephr-content button {
+  appearance: none;
+  margin: 0;
+  padding: 0;
+  background: none;
+  border-radius: 0;
+  border: 0;
+  font-family: inherit;
+  color: inherit;
+}
+
+#zephr-message-welcome .logo {
+  width: 8rem;
+}
+
+#zephr-message-welcome h2 {
+  margin-block: unset;
+  margin-inline: unset;
+  font-weight: 500;
+}
+
+#zephr-message-welcome .zephr-overlay {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  z-index: 4001;
+  overflow: auto;
+}
+
+#zephr-message-welcome.dismissed {
+  display: none;
+}
+
+#zephr-message-welcome .zephr-wrapper {
+  position: relative;
+  max-width: 889px;
+  margin: 10% auto;
+}
+
+@media (max-width: 899px) {
+  #zephr-message-welcome .zephr-inner {
+    height: auto;
+    margin: 0 auto;
+    position: relative;
+  }
+
+  #zephr-message-welcome .heading {
+    text-align: center;
+  }
+
+  #zephr-message-welcome .close-button {
+    top: -30px;
+  }
+}
+
+@media (min-width: 600px) {
+  #zephr-message-welcome h2 {
+    font-size: 3.2em;
+    line-height: 112%;
+  }
+
+}
+
+@media (max-width: 600px) {
+  #zephr-message-welcome h2 {
+    font-size: 2.4em;
+    line-height: 116%;
+  }
+
+  #zephr-message-welcome .content {
+    margin: 3.2em 0;
+  }
+}
+
+
+@media (min-width: 900px) {
+  #zephr-message-welcome .zephr-wrapper {
+    width: 60%;
+    margin: 10% auto;
+    text-align: center;
+  }
+
+  #zephr-message-welcome .zephr-inner {
+    background-color: #f1f1f1;
+  }
+
+}
+
+@media (max-width: 600px) {
+  #zephr-message-welcome .zephr-wrapper {
+    width: 90%;
+  }
+}
+
+@media (min-width: 601px) {
+  #zephr-message-welcome .zephr-wrapper {
+    width: 80%;
+  }
+}
+
+@media (min-width: 699px) {
+  #zephr-message-welcome .zephr-wrapper {
+    width: 60%;
+    max-width: 570px;
+  }
+}
+
+#zephr-message-welcome .close-button {
+  display: inline-block;
+  vertical-align: middle;
+  overflow: visible;
+  text-align: center;
+  border: 0;
+  height: 30px;
+  width: 30px;
+  z-index: 999;
+  background-color: black;
+  color: white;
+  position: absolute;
+  right: 2rem;
+  top: 1rem;
+  background: #f1f1f1 url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' aria-hidden='true' fill='black' width='30px' viewBox='0 0 50 50' focusable='false' style='&%2310; '%3E%3Cpath d='M30 3.5L28.5 0 16 12.5 3.5 0 0 3.5 12.5 16 0 28.5 3.5 32 16 19.5 28.5 32l3.5-3.5L19.5 16 32 3.5z'/%3E%3C/svg%3E") 5px 5px no-repeat;
+}
+
+#zephr-message-welcome .close-button:hover {
+  cursor: pointer;
+}
+
+#zephr-message-welcome h2 {
+  margin: 0px;
+  color: #000;
+}
+
+#zephr-message-welcome .hide-text {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  border: 0;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+}
+
+#zephr-message-welcome .pointer {
+  cursor: pointer;
+  margin-left: -2px;
+}
+
+#zephr-message-welcome .content p {
+  margin: 1rem 0 2rem;
+  font-size: 1rem;
+  font-weight: 400;
+  margin: 1rem 0 2rem;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+}
+
+#zephr-message-welcome #anchor-enter {
+  align-items: center;
+  background: #000000;
+  color: #ffffff;
+  display: inline-flex;
+  font-family: 'ReithSans', Arial, sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 18px;
+  margin: 0 auto;
+  min-height: 32px;
+  padding: 6px 12px;
+  text-decoration: none;
+}
+
+#zephr-message-welcome .container {
+  padding: 60px 5px 30px;
+  width: 100%;
+  max-width: 535px;
+}
+
+#zephr-message-welcome .logo {
+  margin: 0rem auto 1rem;
+}
+
+#zephr-message-welcome .content {
+  text-align: left;
+  margin: 1.2em 2em;
+}
+
+#zephr-message-welcome #anchor-wrapper {
+  text-align: center;
+  margin: 1em 0;
+}
+
+

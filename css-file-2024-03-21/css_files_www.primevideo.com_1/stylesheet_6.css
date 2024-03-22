@@ -1,0 +1,43 @@
+.DVPAWebWidgetsFooter_Footer__footer {
+  --font-size: 15px;
+  --line-height: 19px;
+  font-family: "Amazon Ember", "Amazon Arabic Ember", Arial, sans-serif;
+  padding: 24px;
+  text-align: center;
+  font-size: var(--font-size, 15px);
+  line-height: var(--line-height, 19px); }
+  .DVPAWebWidgetsFooter_Footer__footer.DVPAWebWidgetsFooter_Footer__dark {
+    background-color: #222222; }
+
+@media only screen and (max-width: 880px) {
+  .DVPAWebWidgetsFooter_Footer__footer {
+    --font-size: 13px;
+    --line-height: 1.6em; } }
+
+.dv-signup-theme-av .DVPAWebWidgetsFooter_Footer__footer,
+.dv-signup-theme-classic.dv-signup-view-mlp .DVPAWebWidgetsFooter_Footer__footer {
+  background-color: #222222; }
+
+.DVPAWebWidgetsFooter_Footer__logo {
+  margin: 0 auto;
+  max-height: 32px; }
+
+.DVPAWebWidgetsFooter_Footer__list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 4px 0 14px;
+  padding: 0; }
+
+.DVPAWebWidgetsFooter_Footer__listItem {
+  margin: 0 10px;
+  list-style: none; }
+
+.DVPAWebWidgetsFooter_Footer__link a {
+  text-decoration: none;
+  color: #0f79af; }
+
+.DVPAWebWidgetsFooter_Footer__copyright {
+  color: #949494; }
+

@@ -1,0 +1,10 @@
+
+    @media (min-width:980px) {
+      .addthis-smartlayers-mobile {
+        display: none !important
+      }
+    }
+    .addthis-animated {
+        text-align: center !important;
+    }
+  

@@ -1,0 +1,4 @@
+,time,COUNT,url,style_urls_new,retrieved_CSS_file_paths_new,style_tag_contents_new,isCSS_URl_Same
+0,2024-03-21 13:50:23,1,https://www.tjk.org,['https://www.tjk.org/m/css/style.css'],['css_files_www.tjk.org_1/stylesheet_0.css'],[],True
+1,2024-03-21 13:51:07,1,https://www.tjk.org,['https://www.tjk.org/m/css/style.css'],['css_files_www.tjk.org_1/stylesheet_0.css'],[],True
+2,2024-03-21 13:51:54,1,https://www.tjk.org,['https://www.tjk.org/m/css/style.css'],['css_files_www.tjk.org_1/stylesheet_0.css'],[],True

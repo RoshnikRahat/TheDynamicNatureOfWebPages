@@ -1,0 +1,1 @@
+.headline{color:var(--color-combination-2);font-weight:700}h3.headline{font-size:18px;line-height:25px;padding:var(--headline-padding,12px 4px 16px)}@media only screen and (max-width:639px){h3.headline{padding:var(--headline-padding,8px 12px 12px)}}

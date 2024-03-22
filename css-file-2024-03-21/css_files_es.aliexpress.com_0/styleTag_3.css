@@ -1,0 +1,45 @@
+
+.comet-icon {
+  display: inline-block;
+  color: inherit;
+  font-style: normal;
+  line-height: 0;
+  text-align: center;
+  text-transform: none;
+  vertical-align: -0.125em;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.comet-icon * {
+  line-height: 1;
+}
+
+.comet-icon svg {
+  display: inline-block;
+}
+
+.comet-icon::before {
+  display: none;
+}
+
+.comet-icon-loading,
+.comet-icon-loadingfill {
+  -webkit-animation: cometLoading 2.5s infinite linear;
+  animation: cometLoading 2.5s infinite linear;
+}
+
+@-webkit-keyframes cometLoading {
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes cometLoading {
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
