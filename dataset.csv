@@ -1,0 +1,36 @@
+Category,Website,CSV
+Economy/Finance,https://finance.yahoo.com,yahoo_iframes
+Economy/Finance,https://m.economictimes.com,economic_iframes
+Economy/Finance,https://www.bloomberg.com,bloomberg_iframes
+Economy/Finance,https://www.paypal.com,paypal_iframes
+News,https://www.lemonde.fr,lemon_iframes
+News,https://www.bbc.co.uk,_iframes
+News,https://www.cnn.com,cnn_iframes
+News,https://m.timesofindia.com,toi_iframes
+Education,https://www.typing.com,typing_iframes
+Education,https://stackoverflow.com,stackoverflow_iframes
+Education,https://www.dzexams.com,dzexams_iframes
+Education,https://www.doubtnut.com,doubtnut_iframes
+Health,https://www.healthline.com,healthline_iframes
+Health,https://www.verywellhealth.com,vwhealth_iframes
+Health,https://health.findanyanswer.net,healthfa_iframes
+Health,https://www.starhealth.in,starhealth_iframes
+Sports,https://www.livescore.com,livescore_iframes
+Sports,https://www.diretta.it,diretta_iframes
+Sports,https://www.nikkansports.com,nikkan_iframes
+Sports,https://www.cricbuzz.com,crcibuzz_iframes
+Entertainment,https://www.goojara.to,goojara_iframes
+Entertainment,https://aniwatchtv.to,aniwatch_iframes
+Entertainment,https://www.netflix.com,netflix_iframes
+Entertainment,https://www.primevideo.com,primevideo_iframes
+Online Retail,https://www.amazon.com.tr,amazon_iframes
+Online Retail,https://es.aliexpress.com,aliespress_iframes
+Online Retail,https://www.ebay.com,ebay_iframes
+Government,https://www.gov.uk,govuk_iframes
+Government,https://www.turkiye.gov.tr,turiyegov_iframes
+Government,https://www.gov.br,govbr_iframes
+Government,https://pubmed.ncbi.nlm.nih.gov,pubmed_iframes
+Weather,https://www.tjk.org,tjk_iframes
+Weather,https://weather.com,weather_iframes
+Weather,https://weathernews.jp,weathernews_iframes
+Weather,https://www.theweathernetwork.com,weathernetwork_iframes
