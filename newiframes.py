@@ -18,21 +18,20 @@ driver = webdriver.Chrome(options=options)
 # Load the webpage
 driver.get(url)
 
-# Function to recursively extract HTML content of an element and its children
-def extract_html(element):
-    html_content = element.get_attribute('outerHTML')
-    children = element.find_elements(By.XPATH, './*')
-    for child in children:
-        html_content += extract_html(child)
-    return html_content
-
 # Extract HTML content of the webpage
-html_content = extract_html(driver.find_element(By.XPATH, '/html'))
+html_content = driver.page_source
+
+# Find all HTML elements on the page
+elements = driver.find_elements(By.XPATH, '//*')
+
+# Extract HTML content of each element
+for element in elements:
+    html_content += element.get_attribute('outerHTML')
 
 # Close the WebDriver
 driver.quit()
 
 # Print the HTML content
-#print(html_content)
+# print(html_content)
 with open('info2.txt', 'w', encoding='utf-8') as file:
     file.write(html_content)
