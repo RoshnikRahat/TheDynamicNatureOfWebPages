@@ -24,13 +24,14 @@ import time
 from bs4 import BeautifulSoup
 import difflib
 from datetime import datetime
+import sys
 
 
 ##### GLOBAL VARAIBLE ####
 COUNT =0 # this can be made more meaningful by assocciating it with the current time
 
-monitoring_duration= 60*5*12*3 # in seconds
-download_interval=1*5 #every 5 mins
+monitoring_duration= 6*5*5# in seconds
+download_interval=6*5 #every 5 mins: 60*5
 
 def url_2_host(url):
     '''
@@ -131,6 +132,7 @@ def collect_page(url, options):
     # Get style elements
     style_tags = driver.find_elements(By.TAG_NAME, 'style')
     style_tag_contents = [style_tag.get_attribute('innerHTML') for style_tag in style_tags]
+    print(style_tag_contents)
 
     # Get links to external style sheets
     link_tags = driver.find_elements(By.TAG_NAME, 'link')
@@ -175,7 +177,7 @@ if True:
 options.set_capability("acceptInsecureCerts", True)
 
 # Collect page data and store on disk
-url = "https://www.bbc.com/"
+url = sys.argv[1]
 
 
 def compare_CSS_Urls(urlListold,urlListNew):
@@ -236,13 +238,14 @@ def main():
             'retrieved_CSS_file_paths_new': retrived_CSS_file_paths_new,
             'style_tag_contents_new': style_tag_contents_new,
             'isCSS_URl_Same':isCSS_URl_Same,
-            'is_Internal_CSS_Same':is_Internal_CSS_Same
+            'is_Internal_CSS_Same':is_Internal_CSS_Same[0],
+            'internal_CSS_changes':is_Internal_CSS_Same[1]
             
         }
         # Append the dictionary as a new row to the DataFrame
         CSS_df.loc[len(CSS_df)] = row_data
 
-        CSS_df.to_csv("CSS_dataFrame")
+        CSS_df.to_csv(str(datetime.now().date())+make_filename(url)+"CSS_dataFrame")
         print("Saved to data Frame")
         
         #Updating the Values: Important for all comparisions
