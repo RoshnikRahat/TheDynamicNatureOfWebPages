@@ -1,0 +1,32 @@
+
+    @font-face {
+      font-family: "museo-sans-rounded";
+      font-weight: 300;
+      src: url(/fonts/MuseoSans-300.woff2) format("woff2"),url(/fonts/MuseoSans-300.woff) format("woff");
+    }
+    @font-face {
+      font-family: "museo-sans-rounded";
+      font-weight: 500;
+      src: url(/fonts/MuseoSans-500.woff2) format("woff2"),url(/fonts/MuseoSans-500.woff) format("woff");
+    }
+    @font-face {
+      font-family: "museo-sans-rounded";
+      font-weight: 700;
+      src: url(/fonts/MuseoSans-700.woff2) format("woff2"),url(/fonts/MuseoSans-700.woff) format("woff");
+    }
+    @font-face {
+      font-family: "museo-sans-rounded";
+      font-weight: 900;
+      src: url(/fonts/MuseoSans-900.woff2) format("woff2"),url(/fonts/MuseoSans-900.woff) format("woff");
+    }
+    @font-face {
+      font-family: pt-mono;
+      src: url(/fonts/PTMono55.woff) format("woff");
+      font-weight: 500
+    }
+    @font-face {
+      font-family: pt-mono-bold;
+      src: url(/fonts/PTM75.woff) format("woff");
+      font-weight: 700
+    }
+  

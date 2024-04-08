@@ -1,0 +1,8 @@
+
+	        #wa_banner{padding: 12px 61px 7px 13px;box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.1);background-image: linear-gradient(to left, #fee9e2 0%, rgba(255, 255, 255, 0.5)), linear-gradient(to bottom, #fff, #fff);}
+	        #wa_banner > div{display:inline-block;vertical-align:middle}
+	        #wa_banner h3{font-size:18px}
+	        #wa_banner p{font-weight:500;line-height:1.25;margin-top: 2px;}
+	        #wa_banner .subsBtn{padding: 8px 28px 8px 30px;border-radius: 2px;background-color: #e81e3d;font-weight:700;font-size:13px;margin-top: 5px;}
+	        #wa_banner .subsBtn a{color:#FFF;text-decoration: none;}
+	    

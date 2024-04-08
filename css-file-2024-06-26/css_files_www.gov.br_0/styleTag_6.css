@@ -1,0 +1,5 @@
+
+        body.userrole-authenticated .btn.btn-success.fileinput-button span:after {
+            content: "Adicionar Arquivos" !important;
+        }
+    

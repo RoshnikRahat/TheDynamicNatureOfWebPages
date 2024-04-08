@@ -1,0 +1,22 @@
+
+		   .why li {
+    position: relative;
+    counter-increment: list;
+    list-style: none;
+    width: 100%;
+    display: table;}
+		  .why li:before {
+    content: counter(list) ".";
+    font-weight: 700;
+    display: table-cell;
+    color: #d0d0d0;
+    font-size: 25px;
+    vertical-align: top;
+    width: 27px;
+}
+    .why li img {float: right;
+    margin-left: 6px;}
+    .why li a.wdth{display: block;
+    width: 181px;
+    float: left;}
+		

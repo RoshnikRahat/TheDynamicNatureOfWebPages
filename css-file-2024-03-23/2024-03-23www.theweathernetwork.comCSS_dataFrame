@@ -1,0 +1,6 @@
+,time,COUNT,url,style_urls_new,retrieved_CSS_file_paths_new,style_tag_contents_new,isCSS_URl_Same
+0,2024-03-23 11:23:24,1,https://www.theweathernetwork.com,[],[],[],True
+1,2024-03-23 11:34:16,1,https://www.theweathernetwork.com,[],[],[],True
+2,2024-03-23 11:45:07,1,https://www.theweathernetwork.com,[],[],[],True
+3,2024-03-23 11:55:58,1,https://www.theweathernetwork.com,[],[],[],True
+4,2024-03-23 12:06:50,1,https://www.theweathernetwork.com,[],[],[],True

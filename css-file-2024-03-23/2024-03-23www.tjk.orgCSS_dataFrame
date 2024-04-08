@@ -1,0 +1,6 @@
+,time,COUNT,url,style_urls_new,retrieved_CSS_file_paths_new,style_tag_contents_new,isCSS_URl_Same
+0,2024-03-23 11:22:25,1,https://www.tjk.org,['https://www.tjk.org/m/css/style.css'],['css_files_www.tjk.org_1/stylesheet_0.css'],[],True
+1,2024-03-23 11:32:38,1,https://www.tjk.org,['https://www.tjk.org/m/css/style.css'],['css_files_www.tjk.org_1/stylesheet_0.css'],[],True
+2,2024-03-23 11:42:52,1,https://www.tjk.org,['https://www.tjk.org/m/css/style.css'],['css_files_www.tjk.org_1/stylesheet_0.css'],[],True
+3,2024-03-23 11:53:06,1,https://www.tjk.org,['https://www.tjk.org/m/css/style.css'],['css_files_www.tjk.org_1/stylesheet_0.css'],[],True
+4,2024-03-23 12:03:25,1,https://www.tjk.org,['https://www.tjk.org/m/css/style.css'],['css_files_www.tjk.org_1/stylesheet_0.css'],[],True

@@ -1,0 +1,25 @@
+
+#siteCommonHeader{
+margin: 0 auto;
+width: 100%;
+height:auto;
+}
+#siteCommonHeaderBox{
+margin: 10px auto;
+width: 960px;
+}
+#headerAdBnr2022{
+position: sticky;
+top: 0;
+z-index: 5;
+}
+.special-logo{
+float: left;
+margin-left: 20px;
+}
+.special-logo img{
+width: 130px;
+}
+.header-box{
+width: 500px !important;
+}

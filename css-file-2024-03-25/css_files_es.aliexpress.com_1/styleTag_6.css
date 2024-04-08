@@ -1,0 +1,62 @@
+
+            .batman-thirdparty-sns-entry {
+              height: 36px;
+            }
+            .batman-thirdparty-sns-entry .fm-sns {
+              margin-bottom: 0;
+            }
+            .batman-thirdparty-sns-entry .fm-sns-btns {
+              padding: 0;
+              overflow: hidden;
+              display: flex;
+            }
+            .batman-thirdparty-sns-entry .fm-sns-item-wrap {
+              width: auto;
+              float: none;
+            }
+            .batman-thirdparty-sns-entry .fm-sns-item {
+              width: 36px;
+              height: 36px;
+              margin-left: 8px;
+            }
+            .batman-thirdparty-sns-entry .fm-sns-item.facebook {
+              background-position: 0 0;
+            }
+            .batman-thirdparty-sns-entry .fm-sns-item.vk {
+              background-position: 0 -247.33333px;
+            }
+            .batman-thirdparty-sns-entry .fm-sns-item.tiktok {
+              background-position: 0 -288px;
+            }
+            .batman-thirdparty-sns-entry .fm-sns-item.google {
+              background-position: 0 -40.66667px;
+            }
+            .batman-thirdparty-sns-entry .fm-sns-item.twitter {
+              background-position: 0 -206px;
+            }
+            .batman-thirdparty-sns-entry .fm-sns-item.ok {
+              background-position: 0 -123.3333px;
+            }
+            .batman-thirdparty-sns-entry .fm-sns-item.instagram {
+              background-position: 0 -83.33333px;
+            }
+            .batman-thirdparty-sns-entry .fm-sns-item.pinterest {
+              background-position: 0 -165.33333px;
+            }
+            .batman-thirdparty-sns-entry .fm-sns-item.mailru {
+              background-position: 0 -329.3333px;
+            }
+            .batman-thirdparty-sns-entry .fm-sns-item.apple {
+              background-position: 0 -370.666667px;
+            }
+            .batman-thirdparty-sns-entry .fm-sns-item.kakao {
+              background: url('//ae01.alicdn.com/kf/S6c610bf896c9464b848b8706778e54554/80x80.png')
+                no-repeat center center;
+              background-size: 32px;
+            }
+            .batman-thirdparty-sns-entry .fm-sns-item.line {
+              background: url('//ae01.alicdn.com/kf/Sfc574142654a4c19addbba4b0a4f67953/80x80.png')
+                no-repeat center center;
+              background-size: 32px;
+            }
+          

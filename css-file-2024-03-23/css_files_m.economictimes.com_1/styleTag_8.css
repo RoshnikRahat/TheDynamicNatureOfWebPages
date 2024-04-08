@@ -1,0 +1,1 @@
+.tbl-isi-card .tbl-isi-container { position: relative; display: grid; grid-template-rows: 0.5fr 0.5fr; }.tbl-isi-card .thumbBlock_holder { min-height: 100%; height: 100%; } .tbl-isi-card .thumbBlock_holder .thumbBlock .thumbnail-emblem { width: 20%; height: 50%; background-size: contain; margin: 2%; background-position: 0 0; }

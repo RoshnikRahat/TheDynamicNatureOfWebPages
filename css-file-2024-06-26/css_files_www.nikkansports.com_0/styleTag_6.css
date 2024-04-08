@@ -1,0 +1,35 @@
+
+    #home #topNewsArea .newslist li {
+      letter-spacing: 0;
+    }
+
+    #home #topNewsArea ul.newslist {
+      width: 27em;
+    }
+
+    /* Flexbox、3点リーダー */
+    #home #topNewsArea .newslist li {
+      display: flex;
+      justify-content: flex-start;
+    }
+
+    #home #topNewsArea .newslist li a {
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+    }
+
+    /* 各アイコンの位置、表示設定 */
+    #home #topNewsArea .newslist li p.icon-new,
+    #home #topNewsArea .newslist li p.icon-live {
+      top: 3px;
+    }
+
+    #home #topNewsArea .newslist li i.pict_icon-movie,
+    #home #topNewsArea .newslist li i.pict_icon-key1 {
+      margin-top: 4px;
+    }
+
+    #home #topNewsArea .pict_icon-photo {
+      display: none;
+    }

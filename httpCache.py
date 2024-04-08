@@ -8,7 +8,8 @@ def get_cache_headers(url):
   Fetches the cache headers from a website and returns a dictionary.
   """
 
-  response = requests.head(url)
+  response = requests.head(url,timeout=5)
+  #print("resonse gotten")
   headers = response.headers
   cache_info = {}
   for key, value in headers.items():
@@ -25,9 +26,15 @@ def main():
     urls = [x.rstrip() for x in f]
   print(urls)
   for url in urls:
+    #print(url)
     current_datetime = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
-    cache_info = get_cache_headers(url)
-    print(cache_info)
+    try:
+      cache_info = get_cache_headers(url)
+    except:
+      print("Timeout error for url:",url)
+      continue
+
+    #print(cache_info)
     if cache_info:
         row_data = {
             'time':current_datetime,
@@ -46,6 +53,8 @@ def main():
         }
         print("No Cache-Control headers found for", url)
         cache_df.loc[len(cache_df)] = row_data
+    #print("we reach here")
+  #print("loop over")
   cache_df.to_csv(str(datetime.now().date())+"cache_httpHeader")
 
 

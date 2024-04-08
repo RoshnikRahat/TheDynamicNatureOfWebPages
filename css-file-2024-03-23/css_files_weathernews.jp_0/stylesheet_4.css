@@ -1,0 +1,82 @@
+        #app_dl{position:fixed; left: 0;        bottom:0;       z-index: 5000;     width: 100%; padding:10px 5px;}
+        #app_dl .close_icon,
+        #app_dl .app_install{   display: inline-block;  vertical-align: middle;}
+        #app_dl .close_icon{width:10%;  height: 55px;}
+        #app_dl .close_icon span{       display: block; margin: 0 5px; width: 15px;     height: 55px; background-position: center center;       background-repeat: no-repeat;   background-size: 100%;  opacity: 0.7;}
+        #app_dl .app_install{ width:83%;}
+        #app_dl .app_install a{ height: 55px;   display: block;         background-position: center center;             background-repeat: no-repeat;           background-size: contain;       }
+        #sharing.pc_sns{        display:none; }
+        #sharing.sp_sns{        display:block!important; }
+
+        #app_dl.banner_blue01,#app_dl.banner_blue02,#app_dl.banner_blue03,#app_dl.banner_blue04,#app_dl.banner_blue05,#app_dl.banner_blue06,#app_dl.banner_blue07{      background-color:rgba(3,39,96,1); }
+        #app_dl.banner_blue01 a{ background-image: url(//weathernews.jp/s/topics/img/b_d-blue01.png);}
+        #app_dl.banner_blue02 a{ background-image: url(//weathernews.jp/s/topics/img/b_d-blue02.png);}
+        #app_dl.banner_blue03 a{ background-image: url(//weathernews.jp/s/topics/img/b_d-blue03.png);}
+        #app_dl.banner_blue04 a{ background-image: url(//weathernews.jp/s/topics/img/b_d-blue04.png);}
+        #app_dl.banner_blue05 a{ background-image: url(//weathernews.jp/s/topics/img/b_d-blue05.png);}
+        #app_dl.banner_blue06 a{ background-image: url(//weathernews.jp/s/topics/img/b_d-blue06.png);}
+        #app_dl.banner_blue07 a{ background-image: url(//weathernews.jp/s/topics/img/b_d-blue07.png);}
+
+        #app_dl.banner_cgray01,#app_dl.banner_cgray02,#app_dl.banner_cgray03,#app_dl.banner_cgray04,#app_dl.banner_cgray05,#app_dl.banner_cgray06,#app_dl.banner_cgray07{       background:rgba(70,70,70,1); }
+        #app_dl.banner_cgray01 a{ background-image: url(//weathernews.jp/s/topics/img/b_c-gray01.png);}
+        #app_dl.banner_cgray02 a{ background-image: url(//weathernews.jp/s/topics/img/b_c-gray02.png);}
+        #app_dl.banner_cgray03 a{ background-image: url(//weathernews.jp/s/topics/img/b_c-gray03.png);}
+        #app_dl.banner_cgray04 a{ background-image: url(//weathernews.jp/s/topics/img/b_c-gray04.png);}
+        #app_dl.banner_cgray05 a{ background-image: url(//weathernews.jp/s/topics/img/b_c-gray05.png);}
+        #app_dl.banner_cgray06 a{ background-image: url(//weathernews.jp/s/topics/img/b_c-gray06.png);}
+        #app_dl.banner_cgray07 a{ background-image: url(//weathernews.jp/s/topics/img/b_c-gray07.png);}
+
+        #app_dl.banner_white01,#app_dl.banner_white02,#app_dl.banner_white03,#app_dl.banner_white04,#app_dl.banner_white05,#app_dl.banner_white06,#app_dl.banner_white07,#app_dl.banner_white08{       background:rgba(255,255,255,1); }
+        #app_dl.banner_white01 a,#app_dl.banner_lgray01 a{ background-image: url(//weathernews.jp/s/topics/img/b_white01.png);}
+        #app_dl.banner_white02 a,#app_dl.banner_lgray02 a{ background-image: url(//weathernews.jp/s/topics/img/b_white02.png);}
+        #app_dl.banner_white03 a,#app_dl.banner_lgray03 a{ background-image: url(//weathernews.jp/s/topics/img/b_white03.png);}
+        #app_dl.banner_white04 a,#app_dl.banner_lgray04 a{ background-image: url(//weathernews.jp/s/topics/img/b_white04.png);}
+        #app_dl.banner_white05 a,#app_dl.banner_lgray05 a{ background-image: url(//weathernews.jp/s/topics/img/b_white05.png);}
+        #app_dl.banner_white06 a,#app_dl.banner_lgray06 a{ background-image: url(//weathernews.jp/s/topics/img/b_white06.png);}
+        #app_dl.banner_white07 a,#app_dl.banner_lgray07 a{ background-image: url(//weathernews.jp/s/topics/img/b_white07.png);}
+
+        #app_dl.banner_lgray01,#app_dl.banner_lgray02,#app_dl.banner_lgray03,#app_dl.banner_lgray04,#app_dl.banner_lgray05,#app_dl.banner_lgray06,#app_dl.banner_lgray07{       background:rgba(249,249,249,1);  }
+
+        #app_dl.banner_sugotoku_default a{ background-image: url(//smtgvs.weathernews.jp/s/topics/img/ad/sugotoku/banner_s@2x.png);}
+        #app_dl.banner_sugotoku_weather a{ background-image: url(//smtgvs.weathernews.jp/s/topics/img/ad/sugotoku/banner_s_weather@2x.png);}
+        #app_dl.banner_sugotoku_rain    a{ background-image: url(//smtgvs.weathernews.jp/s/topics/img/ad/sugotoku/banner_s_rain@2x.png);}
+        #app_dl.banner_sugotoku_typhoon a{ background-image: url(//smtgvs.weathernews.jp/s/topics/img/ad/sugotoku/banner_s_typhoon@2x.png);}
+
+        #app_dl[class *="banner_blue"] .close_icon span,
+        #app_dl[class *="banner_cgray"] .close_icon span{       background-image: url(//weathernews.jp/s/topics/img/close_icon.png);}
+        #app_dl[class *="banner_white"] .close_icon span,
+        #app_dl[class *="banner_lgray"] .close_icon span{       background-image: url(//weathernews.jp/s/topics/img/close_icon2.png);}
+
+        #app_dl[class *="banner_sugotoku"] .close_icon span, 
+	#app_dl[class *="banner_apppass"] .close_icon span{       background-image: url(//weathernews.jp/s/topics/img/close_icon2.png);}
+        #app_dl[class *="banner_sugotoku"], #app_dl[class *="banner_apppass"]{
+                padding: 0;
+                padding-top: 18.4%;
+                height: auto;
+        }
+        #app_dl[class *="banner_sugotoku"] .close_icon, #app_dl[class *="banner_apppass"] .close_icon{
+                padding-left: 5px;
+                padding-right: 5px;
+                position: absolute;
+                z-index: 5;
+                top: calc(50% - 27px);
+        }
+        #app_dl[class *="banner_sugotoku"] .app_install, #app_dl[class *="banner_apppass"] .app_install{
+                position: absolute;
+                z-index: 2;
+                width: 100%;
+                bottom: 0;
+        }
+        #app_dl[class *="banner_sugotoku"] a, #app_dl[class *="banner_apppass"] a{
+                background-size: cover;
+                height: 0;
+                padding-top: 18.4%;
+        }
+
+        #app_dl.banner_smartpass_default a{ background-image: url(//smtgvs.weathernews.jp/s/img/banner_smps_footer@2x.png);}
+        #app_dl.banner_smartpass_default{       background:rgba(249,249,249,1);  }
+        #app_dl[class *="banner_smartpass"] .close_icon span{       background-image: url(//weathernews.jp/s/topics/img/close_icon2.png);}
+
+	#app_dl.banner_apppass_default a{ background-image: url(//smtgvs.weathernews.jp/s/img/sb/banner_apppass_anchor@2x.png);}
+	
+#app_dl{display:none;}

@@ -1,0 +1,26 @@
+
+#gStickyAd {
+	position: fixed;
+	z-index: 1000;
+	bottom: 0px;
+	left: 0px;
+	width: 100%;
+	visibility: visible;
+	opacity: 1;
+	text-align:center; 
+	background-color: rgba(0,0,0,0.6);
+}
+#gColseButton{
+	width: 25px;
+	height: 25px;
+	position: absolute;
+	right: 0px;
+	top: -25px;
+	font-size: 20px;
+	text-align: center;
+	color: #fff;
+	font-weight: bold;
+	background-color: rgba(0,0,0,0.6);
+	border-radius: 10px 0 0 0;
+	padding: 3px;
+}

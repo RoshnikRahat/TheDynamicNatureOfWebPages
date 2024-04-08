@@ -30,8 +30,8 @@ import sys
 ##### GLOBAL VARAIBLE ####
 COUNT =0 # this can be made more meaningful by assocciating it with the current time
 
-monitoring_duration= 6*5*5# in seconds
-download_interval=6*5 #every 5 mins: 60*5
+monitoring_duration= 60*10*6# in seconds
+download_interval=60*10 #every 5 mins: 60*5
 
 def url_2_host(url):
     '''
@@ -44,7 +44,7 @@ def scroll_to_bottom(driver):
     Given an active webdriver, scroll to the bottom of the page manually to load lazy loaded images
     Source code was acqurired from: https://stackoverflow.com/a/27760083
     '''
-    SCROLL_PAUSE_TIME = 0.05
+    SCROLL_PAUSE_TIME = 0.01
 
     # Get scroll height
     last_height = driver.execute_script("return document.body.scrollHeight")
@@ -132,7 +132,7 @@ def collect_page(url, options):
     # Get style elements
     style_tags = driver.find_elements(By.TAG_NAME, 'style')
     style_tag_contents = [style_tag.get_attribute('innerHTML') for style_tag in style_tags]
-    print(style_tag_contents)
+    #print(style_tag_contents)
 
     # Get links to external style sheets
     link_tags = driver.find_elements(By.TAG_NAME, 'link')

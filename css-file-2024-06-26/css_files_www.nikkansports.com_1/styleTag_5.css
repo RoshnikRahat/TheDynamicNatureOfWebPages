@@ -1,0 +1,11 @@
+
+#globalNav .global-nav li.global-nav_ol a {
+background-color: #ef3d3d;
+font-size: 83%;
+line-height: 6px;
+}
+#globalNav .global-nav li.global-nav_ol a:hover {
+background-color: #fff;
+}
+#globalNav .global-nav li.global-nav_oth a { background-color: #00385e; }
+#globalNav .global-nav li.global-nav_oth a:hover { background-color: #fff;color:#00385e; }

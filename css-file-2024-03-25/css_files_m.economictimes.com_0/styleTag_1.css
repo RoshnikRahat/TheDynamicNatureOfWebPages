@@ -1,0 +1,7 @@
+
+                .hp_logo, .prime_hp .logoPart > a { position:relative;display:inline-block;}
+                .hp_logo img, .prime_hp .logoPart > a img  { position:relative; z-index:9;}
+                .hp_logo:after, .prime_hp .logoPart > a:after { position:absolute; content:"";right:-97px; top:-10px;background: url(https://economictimes.indiatimes.com/photo/108617170.cms); background-size:100%; background-repeat:no-repeat; width:100px; height:75px;}
+                /*.hp_logo:before, .prime_hp .logoPart > a:before { position:absolute; content:"";background: url(https://economictimes.indiatimes.com/photo/106310944.cms); left:-63px;top:-15px;background-size:100%; background-repeat:no-repeat;width:65px; height:97px;}
+                .header.default{background: url(https://economictimes.indiatimes.com/photo/105031147.cms);background-size:100%; background-repeat:no-repeat;}*/
+    		

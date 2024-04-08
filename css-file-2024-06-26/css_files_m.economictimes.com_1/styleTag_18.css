@@ -1,0 +1,23 @@
+
+            /* Amazon Widget */
+            .amazon_widget ul.categList{white-space: nowrap;}
+            .amazon_widget ul.categList li{width: 149px;position: relative;text-align: center;padding-right: 14px;list-style:none;white-space: normal;display:inline-block;vertical-align: top;}
+            .amazon_widget ul.categList li a{display:block}
+            .amazon_widget ul.categList li a:hover{text-decoration:none}
+            .amazon_widget .categList figure{height:115px;margin:0 auto;border:1px solid #e4e4e4;position:relative}
+            .amazon_widget ul.categList li:hover figure{box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.1);}
+            .amazon_widget .categList figure > img {width: auto;height: auto;position: absolute;top: 0;left: 0;bottom: 0;right: 0;max-width: 100%;max-height: 100%;display: block;margin: 0px auto;}
+            .amazon_widget .categList .deal{font-size:10px;padding: 0 4px 0 5px;box-shadow: 0 1px 4px 0 var(--black-10);background-color: #fff30f;margin:8px 0 5px 0;font-weight:700;display: inline-block;}
+            .amazon_widget .categList h3{font-weight: 500;}
+            .amazon_widget .categList .off{font-size:10px;z-index:1;position:absolute;top:10px;left:10px;color:#fff;font-weight:700;width: 125px;height:17px;text-align: left;}
+            .amazon_widget .categList figure span>img {z-index: -1;left: -10px;position: relative;width: 102px;height: 17px;top: -15px;}
+            .amazon_widget .nextprev-btn {top: 49%;position: absolute;width: 100%;}
+            .amazon_widget .nextprev-btn .btn {width: 26px;height: 25px;position: relative;z-index: 11;background-size: 312px;cursor: pointer;}
+            .amazon_widget .nextprev-btn .btn.prev-btn {background-position: -212px -2px;left: -13px;}
+            .amazon_widget .nextprev-btn .btn.next-btn {background-position: -241px -2px;right: -11px;}
+            .amazon_widget .nextprev-btn .btn.disable{opacity:0.5;cursor: not-allowed;}
+            
+                .amazon_widget ul.categList li{text-align:left}
+                .amazon_widget .categList figure{height:116px;border:none}
+                .amazon_widget .categList h3{font-size:14px;font-family: 'Faustina', sans-serif;}
+            

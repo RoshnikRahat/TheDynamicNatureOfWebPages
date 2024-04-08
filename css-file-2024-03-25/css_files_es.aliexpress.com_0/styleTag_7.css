@@ -1,0 +1,8 @@
+
+    .container { margin-right: auto; margin-left: auto; padding-left: 0; padding-right: 0; width: 1200px;}
+    .top-lighthouse{min-width:1200px;}
+    .header-tag-natural {min-width:1200px;}
+    .header-tag-natural .hm-middle{padding-top: 28px;}
+    .header-tag-natural .hm-right .header-right-content{margin-top: 28px;}
+    .header-tag-natural .searchbar-form .search-button{right: -3px;}
+    .hm-right .header-right-content{visibility: hidden;}

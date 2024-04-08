@@ -1,0 +1,1159 @@
+.ssoLoginWidget *{box-sizing:border-box}
+.ssoLoginWidget button {
+    display: block;
+     font-family: inherit;
+    
+}
+ #ssoContionalField{
+    display: flex;
+    flex-direction: column;
+}
+.ssoLoginWidget {
+    width: 800px
+}
+
+.ssoLoginWidget .hide {
+    display: none
+}
+
+.ssoLoginWidget .show {
+    display: block
+}
+
+/* html {
+    font-family: sans-serif;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%
+} */
+
+/* body .ssoLoginWidget{
+    margin: 0
+} */
+
+.ssoLoginWidgetarticle, .ssoLoginWidgetaside, .ssoLoginWidgetdetails,.ssoLoginWidgetfigcaption,.ssoLoginWidgetfigure,.ssoLoginWidgetfooter,.ssoLoginWidgetheader,.ssoLoginWidgethgroup,.ssoLoginWidgetmain, .ssoLoginWidgetmenu,.ssoLoginWidgetnav,.ssoLoginWidgetsection,.ssoLoginWidgetsummary {
+    display: block
+}
+
+.ssoLoginWidget a {
+    background-color: transparent
+}
+.ssoLoginWidget .g_id_signin{
+    height: 44px;
+    width: 100%;
+     font-family: inherit;
+}
+.ssoLoginWidget #channelLogo{
+    height: 44px;
+}
+
+
+
+.ssoLoginWidget a:active,.ssoLoginWidget a:hover {
+    outline: 0
+}
+
+.ssoLoginWidgetbutton {
+    overflow: visible
+}
+
+.ssoLoginWidgetbutton, .ssoLoginWidgetselect {
+    text-transform: none
+}
+
+.ssoLoginWidgetbutton, .ssoLoginWidgetinput[type=button],.ssoLoginWidgetinput[type=reset],.ssoLoginWidgetinput[type=submit] {
+    -webkit-appearance: button;
+    cursor: pointer
+}
+
+.ssoLoginWidgetbutton[disabled],html input[disabled] {
+    cursor: default
+}
+
+
+
+.ssoLoginWidgetinput[type=checkbox], .ssoLoginWidgetinput[type=radio] {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0
+}
+
+
+
+.ssoLoginWidgetinput[type=search] {
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    -webkit-appearance: textfield
+}
+
+.ssoLoginWidgetinput[type=search]::-webkit-search-cancel-button, .ssoLoginWidgetinput[type=search]::-webkit-search-decoration {
+    -webkit-appearance: none
+}
+
+/*! Source: https://github.com/h5bp/html5-boilerplate/blob/master/src/css/main.css */
+/* * {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box
+} */
+
+.ssoLoginWidget:after,.ssoLoginWidget:before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box
+}
+
+.ssoLoginWidget{
+    font-size: 12px;
+    -webkit-tap-highlight-color: transparent
+} 
+
+.clearfix:after,.clearfix:before,.row:after,.row:before,.ssoContainer-fluid:after,.ssoContainer-fluid:before,.ssoContainer:after,.ssoContainer:before {
+    display: table;
+    content: " "
+}
+
+.clearfix:after,.dl-horizontal dd:after,.row:after,.ssoContainer-fluid:after,.ssoContainer:after {
+    clear: both
+}
+
+.ssoLoginWidgetbutton:focus,div:focus {
+    outline: 0
+}
+
+.btn.disabled,.btn[disabled] {
+    cursor: not-allowed;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    opacity: .4
+}
+
+.ssoLoginWidgetbutton,.ssoLoginWidgetinput,.ssoLoginWidgetselect,.ssoLoginWidgettextarea {
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit
+}
+
+.ssoLoginWidget a {
+    color: #0095da;
+    text-decoration: none
+}
+
+.ssoLoginWidget a:focus,.ssoLoginWidget a:hover {
+    color: #0072a7
+}
+
+.ssoLoginWidget a:focus {
+    outline: 5px auto -webkit-focus-ring-color;
+    outline-offset: -2px
+}
+
+.ssoLoginWidgetimg {
+    vertical-align: middle
+}
+
+.ssoLoginWidgetinput[type=search] {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box
+}
+
+.ssoLoginWidget input[type=checkbox],.ssoLoginWidget input[type=radio] {
+    margin: 4px 0 0;
+    line-height: normal
+}
+
+.ssoLoginWidget input[type=checkbox]:focus {
+    outline: 5px auto -webkit-focus-ring-color;
+    outline-offset: -2px
+}
+
+.ssoLoginWidget .form-control {
+    display: block;
+    width: 100%;
+    height: 50px;
+    padding: 10px 12px;
+    font-size: 12px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: solid 1px #6d7278;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s
+}
+
+.ssoLoginWidget .form-control:focus {
+    outline: 0
+}
+
+.ssoLoginWidget .form-control::-moz-placeholder {
+    color: #999;
+    opacity: 1
+}
+
+.ssoLoginWidget .form-control:-ms-input-placeholder {
+    color: #999
+}
+
+.ssoLoginWidget .form-control::-webkit-input-placeholder {
+    color: #999
+}
+
+.ssoLoginWidget .form-control::-ms-expand {
+    background-color: transparent;
+    border: 0
+}
+
+.ssoLoginWidget .form-control[disabled],.ssoLoginWidget .form-control[readonly] {
+    background-color: #fff;
+    opacity: 1
+}
+
+.ssoLoginWidget .form-control[disabled] {
+    cursor: not-allowed
+}
+
+.ssoLoginWidget .form-group {
+    margin-bottom: 15px
+}
+
+.ssoLoginWidget .checkbox,.ssoLoginWidget .radio {
+    position: relative;
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 10px
+}
+
+.ssoLoginWidgetfieldset[disabled] input[type=checkbox],.ssoLoginWidgetfieldset[disabled] input[type=radio],input[type=checkbox].disabled,.ssoLoginWidgetinput[type=checkbox][disabled],.ssoLoginWidgetinput[type=radio].disabled,.ssoLoginWidgetinput[type=radio][disabled] {
+    cursor: not-allowed
+}
+
+.ssoLoginWidget .btn {
+    display: block;
+    padding: 6px;
+    margin-bottom: 0;
+    font-size: .857em;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    width: 100%;
+    margin-bottom: 20px!important;
+}
+
+.ssoLoginWidget .btn.focus,.ssoLoginWidget .btn:focus,.ssoLoginWidget .btn:hover {
+    text-decoration: none
+}
+
+.ssoLoginWidget .btn.active,.ssoLoginWidget .btn:active {
+    background-image: none;
+    outline: 0;
+    -webkit-box-shadow: inset 0 3px 5px rgba(0,0,0,.125);
+    box-shadow: inset 0 3px 5px rgba(0,0,0,.125)
+}
+
+.ssoLoginWidget .btn-facebook,.ssoLoginWidget .btn.disabled,.ssoLoginWidget .btn[disabled] {
+    border-color: #4267b2;
+    margin: 0 auto;
+    padding: 6px
+}
+.ssoLoginWidget .btn-apple{
+    border-color: #fff;
+}
+.ssoLoginWidget .btn-google {
+    margin: 0 auto;
+    text-align: left!important
+}
+
+.ssoLoginWidget .mr10 {
+    margin-right: 10px
+}
+
+.ssoLoginWidget .mr18 {
+    margin-right: 18px
+}
+
+.ssoLoginWidget .unverified.show {
+    display: flex;
+    align-items: center;
+    background-color: #fff2de;
+    padding: 10px 10px 16px 10px
+}
+
+.ssoLoginWidget .passwordInfo {
+    color: #000;
+    font-size: 10px;
+    margin-top: -10px;
+    margin-bottom: 18px
+}
+
+.ssoLoginWidget .passwordInfo.error {
+    font-size: 10px
+}
+
+.ssoLoginWidget .newUser-error {
+    margin-bottom: 15px
+}
+
+.ssoLoginWidget .newUser-error .error {
+    margin-top: 0
+}
+
+.ssoLoginWidget .info-icon {
+    height: 11px;
+    background-image: url(./img/info.svg);
+    background-repeat: no-repeat;
+    background-position-y: center;
+    padding-left: 15px
+}
+
+.ssoLoginWidget .consent {
+    margin-top: 10px;
+    line-height: 1
+}
+
+.ssoLoginWidget .success-subHeading {
+    font-size: 14px;
+    color: #000;
+    margin-bottom: 30px
+}
+
+.ssoLoginWidget fieldset {
+    padding: 0;
+    margin: 0;
+    border: 0 solid silver
+}
+
+.ssoLoginWidget .skipLink {
+    text-align: center
+}
+
+.ssoLoginWidget .notify-icon {
+    height: 20px;
+    background-image: url(./img/alert.svg);
+    background-repeat: no-repeat;
+    background-position-y: center;
+    padding-left: 30px
+}
+
+.ssoLoginWidget .eye-icon {
+    height: 18px;
+    background-image: url(./img/eye.svg);
+    background-repeat: no-repeat;
+    background-position-y: center;
+    padding-left: 30px
+}
+
+.ssoLoginWidget .green-tick {
+    height: 20px;
+    background-image: url(./img/green-tick.svg);
+    background-repeat: no-repeat;
+    background-position-y: center;
+    padding-left: 30px
+}
+
+.ssoLoginWidget .checkbox-tick {
+    margin-right: 5px;
+    width: 20px;
+    padding: 4px 4px
+}
+
+.ssoLoginWidget .nonSignupPwdSection {
+    margin-top: 10px
+}
+
+.ssoLoginWidget .signupPwdSection .password-error {
+    margin-bottom: 10px;
+    margin-top: -10px
+}
+
+.ssoLoginWidget .btn-truecaller {
+    background-color: #008fed
+}
+
+.ssoLoginWidget .btn-twitter {
+    background-color: #00abf0
+}
+
+.ssoLoginWidget .btn-truecaller.focus,.ssoLoginWidget .btn-truecaller:focus {
+    color: #fff;
+    background-color: #21779f;
+    border-color: #21779f
+}
+
+.ssoLoginWidget .btn-truecaller:hover {
+    color: #fff;
+    background-color: #21779f;
+    border-color: #21779f
+}
+
+.ssoLoginWidget .ssoMainWrapper {
+    background: #fff;
+    margin-bottom: 15px
+}
+
+.ssoLoginWidget .cross-icon {
+    height: 13px;
+    position: absolute;
+    left: 96%;
+    height: 13px;
+    margin-top: 20px;
+    z-index: 1;
+}
+.ssoLoginWidget .back-icon {
+    position: absolute;
+    left: 10px;
+    margin-top: 20px;
+    z-index: 1;
+}
+
+.ssoLoginWidget .posRelative {
+    position: relative
+}
+
+.ssoLoginWidget input:focus~.floating-label,.ssoLoginWidget input:not(:focus):valid~.floating-label,.ssoLoginWidget input[type=text]:disabled~.floating-label {
+    top: -6px;
+    font-size: 11px;
+    opacity: 1;
+    background-color: #fff;
+    color: #000;
+}
+
+.ssoLoginWidget .inputText {
+    font-size: 14px;
+    width: 200px;
+    height: 35px
+}
+
+.ssoLoginWidget .fontBlack {
+    color: #000
+}
+
+.ssoLoginWidget .floating-label {
+    padding: 0 5px;
+    position: absolute;
+    pointer-events: none;
+    left: 14px;
+    top: 14px;
+    transition: .2s ease all;
+    color: #7e8da6;
+    font-size: 14px;
+}
+
+.ssoLoginWidget .logobrand {
+    display: block;
+    margin-top: 42px;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    text-align: center
+}
+
+.ssoLoginWidget .textinput {
+    margin: 0 0 20px;
+    position: relative;
+    width: 100%
+}
+
+.ssoLoginWidget input[type=submit] {
+    background: #f37043;
+    border: solid #da1d52;
+    border-radius: .15em;
+    border-width: 0 0 .15em;
+    color: #fff;
+    cursor: pointer;
+    font-size: 1.6em;
+    padding: .2em .4em;
+    transition: all .15s ease
+}
+
+.ssoLoginWidget input[type=submit]:hover {
+    border-width: 0 0 .1em;
+    margin-top: .05em
+}
+
+.ssoLoginWidget input[type=submit]:active {
+    border-width: 0 0 0;
+    margin-top: .15em
+}
+
+.ssoLoginWidget .g-recaptcha {
+    margin-bottom: 30px
+}
+
+.ssoLoginWidget.m10 {
+    margin-bottom: 10px
+}
+
+.ssoLoginWidget .nomargin {
+    margin: 0
+}
+
+/* input[type=number]::-webkit-inner-spin-button,input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0
+} */
+
+.ssoLoginWidgetinput[type=number] {
+    -moz-appearance: textfield
+}
+
+.textinput a {
+    font-size: 12px;
+}
+
+.ssoLoginWidget .socialLogin .social-text {
+    text-align: left;
+    font-size: 12px;
+    color: #fff;
+    margin-left: 10px;
+    white-space: normal;
+    text-transform: initial
+}
+.ssoLoginWidget #ssologinWidthApple .social-text{
+    color: #000;
+}
+
+.ssoLoginWidget .socialLogin .socialBtn {
+    display: flex;
+    border-radius: 5px;
+    align-items: center
+}
+
+.ssoLoginWidget .socialBtn:last-child {
+    margin-right: 0
+}
+
+.ssoLoginWidget #google-div {
+    background-color: #e75645
+}
+
+.ssoLoginWidget #facebook-div {
+    background-color: #234da0
+}
+.ssoLoginWidget #ssologinWidthApple {
+    background-color: #fff;
+    border:1px solid #000;
+    color:#000;
+}
+
+.ssoLoginWidget .social-image {
+    width: 18px
+}
+.ssoLoginWidget .ico-apple{
+    height: 18px;
+    width: auto;
+}
+
+.ssoLoginWidget .btn-google span {
+    line-height: 42px!important
+}
+.ssoLoginWidget .mediumPanel{
+    margin-top: 20px;
+}
+.ssoLoginWidget .mediumPanel .btn {
+    margin-bottom: 10px!important
+}
+
+@-webkit-keyframes spin {
+    0% {
+        -webkit-transform: rotate(0)
+    }
+
+    100% {
+        -webkit-transform: rotate(360deg)
+    }
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0)
+    }
+
+    100% {
+        transform: rotate(360deg)
+    }
+}
+
+@media (min-width: 320px) and (max-width:1023px) {
+    body .ssoLoginWidget{
+        padding:0
+    }
+
+    .ssoLoginWidget .ssoContainer {
+        padding: 0
+    }
+}
+
+.ssoLoginWidget .non-social-section input {
+    padding: 15px 16px;
+    width: 100%;
+    line-height: normal;
+    border: 0;
+    font-size: 14px;
+    background: 0;
+    color: #0e0523;
+    border-radius: 5px;
+    border: solid 1px #6d7278
+}
+
+.ssoLoginWidget .non-social-section input:focus {
+    outline: 0
+}
+
+.ssoLoginWidget .ssoLeftSection .continueBtn {
+    cursor: pointer;
+    border: none;
+    color: #fff;
+    font-size: 14px;
+    margin: auto;
+    background-repeat: no-repeat;
+    height: 45px;
+    border-radius: 5px;
+    margin-top: 30px
+}
+
+.ssoLoginWidget .btn-disable {
+    opacity: .4
+}
+
+.ssoLoginWidget .forgot-pwd-heading,.ssoLoginWidget .sign-in-Heading,.verify-heading {
+    font-size: 18px;
+    margin: 50px 0 44px 0;
+    text-align: center;
+    color: #000
+}
+
+.ssoLoginWidget .boldFont {
+    font-weight: 700
+}
+
+.ssoLoginWidget .medFont {
+    font-weight: 500
+}
+
+.ssoLoginWidget .dflex {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end
+}
+
+.socialLogin.dflex {
+    align-items: unset
+}
+
+.ssoLoginWidget .reset-input {
+    background: 0 0;
+    outline: 0;
+    border: none;
+    width: 100%;
+    padding-right: 10px
+}
+
+.ssoLoginWidget .user-login-Detail {
+    font-size: 14px;
+    color: #0e0523
+}
+
+.ssoLoginWidget .user-section {
+    margin-bottom: 17px
+}
+
+.ssoLoginWidget .custom-input {
+    align-items: center;
+    padding: 15px 13px;
+    border-radius: 5px;
+    border: solid 1px #6d7278;
+    background-color: #fff
+}
+
+.ssoLoginWidget .link {
+    cursor: pointer;
+    color: #3587e7;
+}
+
+.ssoLoginWidget .custom-input .input {
+    flex: 2
+}
+
+.ssoLoginWidget .changelink {
+    cursor: pointer;
+    font-size: 10px
+}
+
+.ssoLoginWidget .otpText {
+    color: #000;
+    font-size: 14px
+}
+
+.ssoLoginWidget .signInBtn-wrapper .toggleSignIn {
+    cursor: pointer;
+    text-align: center;
+    font-size: 14px
+}
+
+.ssoLoginWidget .sign-in-text {
+    color: #000;
+    text-align: center;
+    font-size: 18px;
+    margin: 50px 0 26px
+}
+
+.ssoLoginWidget .initSignup {
+    text-align: center;
+    margin-top: 65px;
+    font-size: 14px
+}
+
+.ssoLoginWidget .ssoLeftSection {
+    width: 63%;
+    padding: 0 75px
+}
+
+.ssoLoginWidget .txtcenter {
+    text-align: center
+}
+
+.ssoLoginWidget .ssoMainWrapper {
+    position: relative;
+    width: 100%;
+    margin: auto;
+    display: flex;
+    min-height: 630px
+}
+
+.ssoLoginWidget .password-strength {
+    list-style: none;
+    margin: 10px 0
+}
+
+.ssoLoginWidget .password-strength .uncheck {
+    background-image: url(./img/uncheck.svg);
+    background-repeat: no-repeat;
+    background-position-y: center;
+    padding-left: 20px
+}
+
+.ssoLoginWidget .txt {
+    color: #0e0523;
+    margin-bottom: 22px
+}
+
+.ssoLoginWidget .circle {
+    margin-top: 17px;
+    color: #0e0523
+}
+
+.ssoLoginWidget .ssoSuccessPage .successIcon {
+    height: 61px;
+    background-image: url(./img/success.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-left: 20px;
+    margin-bottom: 13px;
+    margin-top: 45px
+}
+
+.ssoLoginWidget .ssoSuccessPage {
+    text-align: center
+}
+
+.ssoLoginWidget .ssoSuccessPage .success-heading {
+    font-size: 20px;
+    color: #000;
+    margin-bottom: 5px;
+    margin-bottom: 15px
+}
+
+.ssoLoginWidget .password-strength .checked {
+    background-image: url(./img/checked.svg);
+    background-repeat: no-repeat;
+    background-position-y: center;
+    padding-left: 20px
+}
+
+.ssoLoginWidget .forgot-password .radio-uncheck {
+    background-image: url(./img/radio-unselect.svg);
+    background-repeat: no-repeat;
+    background-position-y: center;
+    padding-left: 20px
+}
+
+.ssoLoginWidget .forgot-password .radio-check {
+    background-image: url(./img/radio-select.svg);
+    background-repeat: no-repeat;
+    background-position-y: center;
+    padding-left: 20px
+}
+
+.ssoLoginWidget .sso-footer-img {
+    width: 37%;
+    text-align: center;
+    position: relative;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.ssoLoginWidget .sso-footer-img img {
+    display: block;
+   
+}
+
+.ssoLoginWidget .sign-up-wrapper {
+    text-align: center;
+    font-size: 18px;
+    text-align: center;
+    color: #000;
+    margin: 50px 0 26px 0
+}
+.ssoLoginWidget .ssoTimesloginW{
+    position: absolute;
+    bottom: 40px;
+    margin: auto;
+    width: 37%;
+}
+.ssoLoginWidget .ssoTimesloginW img{
+    width: 110px;
+    margin: 0;
+}
+
+.ssoLoginWidget .signupError {
+    color: #d61616
+}
+
+.ssoLoginWidget .cross-icon {
+    cursor: pointer
+}
+
+.ssoLoginWidget .error {
+    color: #d61616;
+    font-size: 12px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.ssoLoginWidget .confirmPwd {
+    margin-top: 46px
+}
+
+.ssoLoginWidget .ssoseparator {
+    margin-top: 20px;
+    margin-bottom: 26px;
+    text-align: center;
+    display: flex;
+    align-items: center
+}
+
+.ssoLoginWidget .ovalsep::after,.ssoLoginWidget .ovalsep::before {
+    border-bottom: 1px dashed gray;
+    content: '';
+    flex: 1;
+    margin: 0 5px;
+}
+
+.ssoLoginWidget .timesLoginLogo {
+    width: 84px;
+    display: block;
+    margin: 22px auto 16px
+}
+
+.ssoLoginWidget .channel-image {
+    margin-top: 10px
+}
+
+.ssoLoginWidget .channel-image img {
+    width: 27px
+}
+
+.ssoLoginWidget .social-imageWrapper {
+    display: inline-block;
+    padding: 5px 10px
+}
+
+#facebook-div .border-right {
+    border-right: 1px solid #5a78c4
+}
+.g_id_signin{
+    margin-bottom: 10px;
+}
+#ssologinWidthApple .border-right {
+    border-right: 1px solid #635151;
+}
+
+#google-div .border-right {
+    border-right: 1px solid #c13828
+}
+
+.ssoLoginWidget .mt25 {
+    margin-top: 25px
+}
+
+.ssoLoginWidget .ssoContainer .error-Border {
+    border: 1px solid #d61616
+}
+
+.ssoLoginWidget .ssoContainer .errorLabel {
+    color: #d61616
+}
+
+.ssoLoginWidget.resetSuccess {
+    width: 500px
+}
+
+.ssoLoginWidget .ssoLeftSection.resetSuccess {
+    width: 100%
+}
+
+.ssoLoginWidget .minht {
+    min-height: 470px
+}
+
+.ssoLoginWidget .footer-logo {
+    display: flex;
+    justify-content: center
+}
+
+.ssoLoginWidget .timerWrapper {
+    position: relative;
+    background: #fff
+}
+
+.ssoLoginWidget .timerWrapper,.timerWrapper * {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box
+}
+
+.ssoLoginWidget .timerWrapper {
+    font-size: 12px;
+    color: #838383;
+}
+
+.ssoLoginWidget .timerWrapper .pie {
+    width: 50%;
+    height: 100%;
+    transform-origin: 100% 50%;
+    position: absolute;
+    background: #adadad;
+    border: 5px solid #adadad
+}
+
+.ssoLoginWidget .timerWrapper .spinner {
+    border-radius: 100% 0 0 100%/50% 0 0 50%;
+    z-index: 200;
+    border-right: none
+}
+
+.ssoLoginWidget .timerWrapper:hover .filler,.ssoLoginWidget .timerWrapper:hover .mask,.ssoLoginWidget .timerWrapper:hover .spinner {
+    animation-play-state: running
+}
+
+.ssoLoginWidget .timerWrapper .filler {
+    border-radius: 0 100% 100% 0/0 50% 50% 0;
+    left: 50%;
+    opacity: 0;
+    z-index: 100;
+    border-left: none
+}
+
+.ssoLoginWidget .checkTerms {
+    color: #000;
+    font-size: 11px
+}
+
+.ssoLoginWidget .timerWrapper .mask {
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    background: inherit;
+    opacity: 1;
+    z-index: 300
+}
+
+@keyframes rota {
+    0% {
+        transform: rotate(0)
+    }
+
+    100% {
+        transform: rotate(360deg)
+    }
+}
+
+@keyframes opa {
+    0% {
+        opacity: 1
+    }
+
+    100%,50% {
+        opacity: 0
+    }
+}
+
+@media screen and (max-width: 680px) {
+    .ssoLoginWidget .footer-logo img {
+        position:static
+    }
+
+    .ssoLoginWidget .minht {
+        min-height: 0
+    }
+
+    .ssoLoginWidget {
+        width: 100%
+    }
+
+    .ssoLoginWidget .checkTerms {
+        font-size: 11px
+    }
+
+    .ssoLoginWidget .sign-up-wrapper {
+        font-size: 16px;
+        margin: 42px 0 31px 0
+    }
+
+    .ssoLoginWidget .error {
+        font-size: 12px
+    }
+
+    .ssoLoginWidget .continueBtn {
+        margin-bottom: 22px;
+    }
+
+    .ssoLoginWidget .ssoLeftSection {
+        width: 100%;
+        padding: 0 25px
+    }
+
+    .ssoLoginWidget .ssoMainWrapper {
+        width: 100%;
+        display: block
+    }
+   
+
+.ssoLoginWidget .forgot-pwd-heading,.ssoLoginWidget .sign-in-Heading {
+     font-size: 14px;
+     margin: 42px 0 54px 0
+ }
+
+    .ssoLoginWidget .user-login-Detail {
+        font-size: 12px
+    }
+
+    .ssoLoginWidget .signInBtn-wrapper .toggleSignIn {
+        font-size: 12px
+    }
+
+    .ssoLoginWidget .user-section {
+        margin-bottom: 16px
+    }
+
+    .ssoLoginWidget .sign-in-text {
+        color: #000;
+        text-align: center;
+        font-size: 14px;
+        margin: 42px 0 16px
+    }
+
+    .ssoLoginWidget .initSignup {
+        margin-top: 11px;
+        font-size: 12px;
+        color: #000;
+        margin-bottom: 17px;
+    }
+
+    .ssoLoginWidget .channel-collection {
+        width: 320px
+    }
+
+    .ssoLoginWidget .sso-footer-img {
+        width: auto;
+    }
+    .ssoLoginWidget .sso-footer-img img {
+       padding: 25px 0;
+        position: static;
+    }
+    .ssoLoginWidget .ssoTimesloginW {
+        position: static;
+        bottom: 40px;
+        margin: auto;
+        width: 100%;
+    }
+    .ssoLoginWidget .ssoTimesloginW img{
+        margin-top: 12px;
+        width: 100px;
+        margin-bottom: 13px;
+    }
+
+    .ssoLoginWidget .non-social-section input {
+        font-size: 12px
+    }
+
+    .ssoLoginWidget .logobrand {
+        margin-top: 25px
+    }
+
+    .ssoLoginWidget .cross-icon {
+        left: 92%
+    }
+}
+
+.ssoLoginWidget .subtitle-text {
+    text-align: center;
+    font-size: 12px
+}
+
+.ssoLoginWidget .changePassword-text {
+    text-align: center;
+}
+
+.ssoLoginWidgetinput:required {
+    box-shadow:none;
+}
+
+.footerbm {
+    font-size: 11px;
+    padding: 6px 0 6px 0px;
+    margin-top: 30px;
+    width: 100%;
+    position: relative;
+}
+
+.footerbm1 {
+    font-size: 11px;
+    padding: 6px 0 6px 0px;
+    width: 100%;
+    z-index: 100;
+    color: rgb(255, 255, 255);
+}
+@media only screen and (max-width: 768px) { .footerbm1 {position: relative} }
+.footerbm li {
+    display: inline-block;
+    color: #d5d5d5;
+    padding: 0 2px;
+}
+.footerbm small {
+    color: #999999;
+    font-size: 11px;
+    margin-top: 10px;
+}

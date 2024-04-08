@@ -1,0 +1,10 @@
+
+                    .spotlight_widget ul.categList{white-space: nowrap;}
+                    .spotlight_widget ul.categList li{width: 143px;position: relative;padding-right: 20px;list-style:none;white-space: normal;display:inline-block;vertical-align: top;}
+                    .spotlight_widget .nextprev-btn {top: 52%;position: absolute;width: 100%;}
+                    .spotlight_widget .nextprev-btn .btn {width: 26px;height: 25px;position: relative;z-index: 11;background-size: 312px;cursor: pointer;}
+                    .spotlight_widget .nextprev-btn .btn.prev-btn {background-position: -212px -2px;left: -13px;}
+                    .spotlight_widget .nextprev-btn .btn.next-btn {background-position: -241px -2px;right: -11px;}
+                    .spotlight_widget .nextprev-btn .btn.disable{opacity:0.5;cursor: not-allowed;}
+                    .spotlight_widget ul.categList li .line_2{overflow:hidden;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;font-size:14px;position:relative;font-weight:500;font-family:'Faustina', sans-serif;cursor:pointer;}
+                

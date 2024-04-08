@@ -1,0 +1,3 @@
+,time,COUNT,url,style_urls_new,retrieved_CSS_file_paths_new,style_tag_contents_new,isCSS_URl_Same
+0,2024-03-23 15:00:34,1,https://pubmed.ncbi.nlm.nih.gov,[],[],[],True
+1,2024-03-23 15:01:55,1,https://pubmed.ncbi.nlm.nih.gov,[],[],[],True

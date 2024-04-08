@@ -1,0 +1,54 @@
+
+                        .primeOffers {position: fixed; left: 0; top: 0; width: 100%; height: 100%; z-index: 9999;}
+                        .offerContainer {position: relative; top: 50%;transform: translateY(-50%); width: 904px; z-index: 10000; bottom: 0; right: 0; left: 0; margin: auto auto; padding: 10px;  background: #fff;}
+                        .offerContainer .ofrwrapper{border: 10px solid #ffe9e2;}
+                        .offerContainer .heading {margin: 20px 0px 7px; font-family: Montserrat; font-size: 30px;text-align:center; font-weight: 800;}
+                        .offerContainer .sub_heading {margin: 0px auto 20px;font-size: 18px;color: #4a4a4a;display: block;text-align:center}
+                        .offerContainer .benefits{display:flex;justify-content: space-around;text-align: center;gap: 10px;}
+                        .offerContainer .benefits .benefits_box{width:255px}
+                        .offerContainer .benefits .benefits_box img{width:78px;height:78px}
+                        .offerContainer .benefits .benefits_box p{margin: 7px 0 0;font-family: Montserrat;font-size: 15px;font-weight: 500;line-height: 1.47;}
+                        .choose_plan {font-family: Montserrat;font-size: 20px;font-weight: bold;display: flex;margin: 18px 0;}
+                        .choose_plan:before, .choose_plan:after {content: "";flex: 1 1;border-bottom:2px solid #ffe8e1;margin: auto 50px;}
+                        .offerContainer .plans_container {overflow: auto; height:290px}
+                        .offerContainer .continue_btn {padding: 14px 85px; border-radius: 4px; background-color: #ef314f; color: #fff; font-family: 'Montserrat'; font-size: 14px; font-weight: bold; text-transform: uppercase;cursor:pointer}
+                        .offerContainer .gst {font-family: Montserrat;font-size: 12px;text-align: center;color: #808080;margin-top: 8px;margin-bottom:20px}
+                        .offerContainer .close_overlay {font-size: 16px; position: absolute; right: 25px; top: 25px; cursor: pointer; border-radius: 50%; background-color: #c6c6c6; width: 20px; height: 20px;}
+                        .offerContainer .close_overlay:hover {background: #000;}
+                        .offerContainer .close_overlay:before, .offerContainer .close_overlay:after{ position: absolute; left: 9px; top: 5px; content: ' '; height: 10px; width: 2px; background-color: white; backface-visibility: hidden; }
+                        .offerContainer .close_overlay:before{transform: rotate(45deg);}
+                        .offerContainer .close_overlay:after{transform: rotate(-45deg);}
+                        .plan_item {width: 220px; height: 206px; border-radius: 4px; box-shadow: 0 0 4px 0 rgb(0 0 0 / 25%); padding: 18px; box-sizing: border-box; margin: 10px 15px 0; float: left; position: relative; border: 1px solid #fff; cursor: pointer;background: #fff;} 
+                        .pcont_cc .plan_item {height: 266px; } 
+                        .desc_lbl span {display: block;}
+                        .desc_lbl {font-family: Montserrat; font-size: 12px;  text-align: center; color: #5e5e5e;}
+                        .price_lbl {font-family: Montserrat; font-size: 28px; font-weight: 800; text-align: center;}
+                        .plan_item input[type="radio"] {float: left;margin: 6px 0;}
+                        .radio_lbl::after {content: ''; border: 1px solid #ed193b; position: relative; height: 23px; width: 23px; display: inline-block; border-radius: 50%; top: -5px; left: -5px;}
+                        .radio_lbl {height: 15px; width: 15px; display: inline-block; border-radius: 50%; float: left; margin-top: 4px;}
+                        .radio_lbl.active {background: #ed193b; }
+                        .plans_container {display: inline-block;}
+                        .pcont_cc .plan_item.active {background-color: #fafafa; border: solid 2px #979797;box-shadow: 0 0 14px 0 rgb(0 0 0 / 10%);}
+                        .pcont_cc .plan_item input[type="radio"] {float: left;margin: 6px 0;}
+                        .pcont_cc .offer_lbl {font-size: 13px; font-weight: 600; text-align: center; color: #df1f34; position: absolute; right: 0; left: 0; top: 92px;}
+                        .pcont_cc .duration_lbl {font-size: 16px; font-weight: 800; text-align: center; text-transform: uppercase; margin-top: 20px; border-top: 1px solid #ddd; padding-top: 8px; width: 150px; margin: 25px auto auto;}
+                        .pcont_cc .radio_lbl {display: block; margin: 0 auto 10px; float: none;}
+                        .pcont_cc .price_lbl {margin-top: 25px;}
+                        .pcont_cc .pricing_box {margin: 8px 0;}
+                        .pcont_cc .best_plan:after { content: 'BEST OFFER'; position: absolute; display: inline-block; background: #37971d; color: #fff; border-radius: 11px; padding: 4px 9px; font-size: 10px; font-weight: bold; line-height: normal; letter-spacing: 0.8px; top: -12px; width: 92px; left: 0; margin-left: -47px; text-align: center; right: 0; margin: 0 auto;}
+                        .pcont_cc s.slasher_price { height: 12px; font-size: 16px; color: #9b9b9b; text-align: left; display: block; margin-left: 25px; position: absolute;}
+                        .pcont_cc .per_duration{font-size: 18px; font-weight: normal;}
+                        .pcont_cc .bill_amt{font-size: 14px; font-weight: 600; margin-top: 6px; word-spacing: 2.3px;}
+                        
+                        .with_plans{background: linear-gradient(to bottom, #fff 40%, #fff0ec 0%);}
+                        .without_plans{text-align:center;font-family: Montserrat;}
+                        .without_plans .start_trialBTN{font-size: 16px;font-weight: bold;border-radius: 4px;background-color: #ef314f;padding: 14px 52px;display: inline-block;color: #fff;margin: 25px 0 20px;text-decoration:none;cursor:pointer}
+                        .text_container {background: #fff0ec;padding: 20px 0;}
+                        .text_container h4{font-size: 20px;font-weight: bold;text-align: center;color: #e42843;text-transform: uppercase;margin-bottom: 12px;}
+                        .text_container h5{font-size: 20px;margin-bottom: 15px;font-weight: bold;}
+                        .view_planBTN{display: inline-block;font-size: 16px;font-weight: 600;border-radius: 4px;border: solid 2px #000;padding: 10px 15px;line-height: 1;text-decoration:none;cursor:pointer}
+                        .imgOfferContainer{position: relative;top: 50%;transform: translateY(-50%);width: 572px;z-index: 10000;bottom: 0;right: 0;left: 0;margin: auto auto;background: #fff;}
+                        .imgClose{position: absolute;top: -21px;right: 0;cursor: pointer;}
+                        .imgClose img{width:65px;height:21px}
+                        .offerImg{width: 572px;height: 397px;cursor:pointer}
+                    

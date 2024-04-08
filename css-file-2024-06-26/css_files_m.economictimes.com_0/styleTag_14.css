@@ -1,0 +1,24 @@
+
+	        #stk_bnr,#TP_bnr {width:100%;box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.1);text-align: center;}
+	        #stk_bnr &gt; a,#TP_bnr &gt; a{display:block;cursor: pointer;text-decoration: none;}
+	        #stk_bnr .bnr_wrapper,#TP_bnr .bnr_wrapper{padding: 12px;font-family: Montserrat;display: flex;align-items: center;width:1003px;margin:0 auto;box-sizing:border-box}
+	        #TP_bnr .bnr_wrapper{padding: 12px 10px}
+	        #stk_bnr .dtls{width:75%}
+	        #TP_bnr .dtls{width:75%}
+	        #stk_bnr .dtls .dtls_head span,#TP_bnr .dtls .dtls_head span{border-radius: 3px 0 0 3px;background-image: linear-gradient(to bottom, #f54070, #e81e3d);font-size:12px;font-weight:bold;padding: 2px 12px 3px 9px;color: #fff;position: relative;}
+	        #TP_bnr .dtls .dtls_head span{font-size:9.6px;padding: 4px 12px 3px 7px;}
+	        #stk_bnr .dtls .dtls_head span:after,#TP_bnr .dtls .dtls_head span:after{content: "";position: absolute;right: 0px;bottom: 0;width: 0px;height: 0px;border-bottom: 10px solid #fff;border-top: 10px solid #fff;border-left: 10px solid transparent;}
+	        #TP_bnr .dtls .dtls_head span:after{border-bottom: 9px solid #fff;border-top: 9px solid #fff;border-left: 9px solid transparent;}
+	        #stk_bnr .dtls .dtls_head h2,#TP_bnr .dtls .dtls_head h2{font-family: Faustina;font-size: 24px;font-weight: 600;display: inline;vertical-align: middle;line-height: 23px;margin-left: 8px;}
+	        #TP_bnr .dtls .dtls_head h2{font-family: Faustina;font-size: 24px;font-weight: 600;display: inline;margin-left: 8px;}
+	        #stk_bnr .dtls .dtls_bullets,#TP_bnr .dtls .dtls_bullets{margin-top: 6px;}
+	        #stk_bnr .dtls .dtls_bullets li,#TP_bnr .dtls .dtls_bullets li {font-size: 14px;font-weight: 400;line-height: 1.25;display: inline-block;margin-right: 20px;list-style: none;}
+	        #TP_bnr .dtls .dtls_bullets li{margin-right: 27px}
+	        #stk_bnr .dtls .dtls_bullets li:last-child,#TP_bnr .dtls .dtls_bullets li:last-child {margin-right: 0;}
+	        #stk_bnr .dtls .dtls_bullets li:before,#TP_bnr .dtls .dtls_bullets li:before {width: 2px;display: inline-block;vertical-align: middle;margin: 0 5px 2px 0;}
+	        #stk_bnr .stock_page_btn,#TP_bnr .stock_page_btn{color: #da2337;font-size:14px;font-weight:600;padding: 8px 14px;display: block;border-radius: 2px;border: solid 1px #da2337;text-align: left;}
+	        #TP_bnr .stock_page_btn{padding: 8px 12px;}
+	        .dtls_head h2 img{margin: 0 2px 1px 5px;vertical-align: sub;}
+	        
+	        #stk_bnr a:hover .stock_page_btn, #TP_bnr a:hover .stock_page_btn{background-color:#da2337;color:#FFF}
+	    

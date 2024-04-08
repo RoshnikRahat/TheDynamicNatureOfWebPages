@@ -1,0 +1,103 @@
+
+#pianoMembersLink {
+	float: left;
+	width: 480px;
+	min-height: 125px;
+	border-right: 1px solid #9fb0bc;
+}
+#adPubGam {
+	float: right;
+	width: 160px;
+}
+#pianoMembersLinkHeader{margin-bottom: 10px;}
+#pianoMembersLinkHeader div.pianoMembersLinkHeaderImgBox{width: 190px;float: left;}
+#pianoMembersLinkHeader div.pianoMembersLinkHeaderImgBox img{width: 100%;position: relative;top: 6px;}
+#pianoMembersLinkHeader div.pianoMembersLinkHeaderTxtBox{
+	float: left;
+	margin-top: 3px;
+	margin-left: 8px;
+	padding: 4px 15px 4px 15px;
+	background-color: #ffd423;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	border-radius: 4px;
+	color: #fff;
+}
+#pianoMembersLinkHeader div.pianoMembersLinkHeaderTxtBox a{
+	color: #000;
+}
+#pianoMembersLinkHeader div.pianoMembersLinkHeaderTxtBox a::after{
+	content: "";
+	position: relative;
+	display: inline-block;
+	font-size: 1.4rem;
+	font-family: nsiconfont;
+	font-style: normal;
+	font-weight: normal;
+	text-transform: none;
+	-webkit-font-smoothing: antialiased;
+	top: 1px;
+	color: #000;
+	font-variant: normal;
+}
+#pianoMembersLinkHeader div.pianoMembersLinkHeaderTxtBox:hover{
+	background-color: #ffe475;
+}
+#pianoMembersLinkHeader div.pianoMembersLinkHeaderTxtBox p{
+	font-size: 13px;
+	font-size: 1.3rem;
+	display: flex;
+	align-items: center;
+}
+#adPubGam div.adPubGamHeaderTxtBox{
+	height:25.5px;
+	margin-top: 4px;
+	margin-left: 10px;
+	margin-bottom: 6px;
+}
+#adPubGam div.adPubGamHeaderTxtBox p{
+	font-size: 13px;
+	font-size: 1.3rem;
+	padding: 4px;
+	background-color: #0075c2;
+	color: #fff;
+}
+#pianoMembersLinkThumbnail a{
+	display: block;
+}
+#pianoMembersLinkThumbnail a img{
+	width: 100%;
+	height: 125px;
+	background-size: cover;
+	background-position: top center;
+	background-repeat: no-repeat;
+}
+#pianoMembersLinkThumbnail a p{
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	min-height: 62.39px;
+	padding: .5em;
+	background-color: rgba(0,0,0,0.6);
+	color: #fff;
+	font-size: 12px;
+	font-size: 1.2rem;
+	line-height: 1.4;
+}
+.pianoMembersLink-thumbnail{
+	position: relative;
+	width: 150px;
+	float: left;
+	margin-right: 10px;
+}
+.pianoMembersLink-thumbnail:nth-child(3n){
+	margin-right: 0;
+}
+#adUnit33{
+	position: relative;
+	width: 150px;
+	margin-left: 10px;
+}
+#adUnit33 div div > iframe{
+	height: 125px !important;
+}
