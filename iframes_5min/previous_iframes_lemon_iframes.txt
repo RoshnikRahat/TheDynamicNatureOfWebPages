@@ -1,0 +1,1 @@
+['<iframe name="__tcfapiLocator" style="display: none;"></iframe>']

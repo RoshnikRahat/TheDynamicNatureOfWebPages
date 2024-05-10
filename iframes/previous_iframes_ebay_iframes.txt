@@ -1,0 +1,1 @@
+['<iframe id="tt" src="https://devicebind.ebay.com/signin/sub/tt.html?st=1711497945042&amp;f=53000&amp;e=0&amp;pageid=4375194&amp;rec=0&amp;sc=0&amp;sm=4&amp;sig=i9Tyri9jwTTC0GpISbV8vJ8z9bjLBru1U%2F1QxBjm870y%2B1JgXBqk31x1F7ilAH0GaO1Acky29EUXDin5A0n56Q%3D%3D" style="display: none" frameborder="0" width="0" height="0"></iframe>']

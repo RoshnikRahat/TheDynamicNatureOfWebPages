@@ -1,0 +1,38 @@
+CATEGORY,WEBSITE,CSV,CSV Path,Txt Path,WebName
+Economy/Finance,https://finance.yahoo.com,yahoo_iframes,yahoo_iframes.csv,yahoo_iframes.txt,yahoo 
+Economy/Finance,https://m.economictimes.com,economic_iframes,economic_iframes.csv,economic_iframes.txt,economic 
+Economy/Finance,https://www.bloomberg.com,bloomberg_iframes,bloomberg_iframes.csv,bloomberg_iframes.txt,bloomberg 
+Economy/Finance,https://www.paypal.com,paypal_iframes,paypal_iframes.csv,paypal_iframes.txt,paypal 
+News,https://www.lemonde.fr,lemon_iframes,lemon_iframes.csv,lemon_iframes.txt,lemon 
+News,https://www.bbc.co.uk,bbc_iframes,bbc_iframes.csv,bbc_iframes.txt,bbc 
+News,https://www.cnn.com,cnn_iframes,cnn_iframes.csv,cnn_iframes.txt,cnn 
+News,https://m.timesofindia.com,toi_iframes,toi_iframes.csv,toi_iframes.txt,toi 
+Education,https://www.typing.com,typing_iframes,typing_iframes.csv,typing_iframes.txt,typing 
+Education,https://stackoverflow.com,stackoverflow_iframes,stackoverflow_iframes.csv,stackoverflow_iframes.txt,stackoverflow 
+Education,https://www.dzexams.com,dzexams_iframes,dzexams_iframes.csv,dzexams_iframes.txt,dzexams 
+Education,https://www.doubtnut.com,doubtnut_iframes,doubtnut_iframes.csv,doubtnut_iframes.txt,doubtnut 
+Health,https://www.healthline.com,healthline_iframes,healthline_iframes.csv,healthline_iframes.txt,healthline 
+Health,https://www.verywellhealth.com,vwhealth_iframes,vwhealth_iframes.csv,vwhealth_iframes.txt,vwhealth 
+Health,https://health.findanyanswer.net,healthfa_iframes,healthfa_iframes.csv,healthfa_iframes.txt,healthfa 
+Health,https://www.starhealth.in,starhealth_iframes,starhealth_iframes.csv,starhealth_iframes.txt,starhealth 
+Sports,https://www.diretta.it,diretta_iframes,diretta_iframes.csv,diretta_iframes.txt,diretta 
+Sports,https://www.nikkansports.com,nikkan_iframes,nikkan_iframes.csv,nikkan_iframes.txt,nikkan 
+Sports,https://www.cricbuzz.com,crcibuzz_iframes,crcibuzz_iframes.csv,crcibuzz_iframes.txt,crcibuzz 
+Sports,https://www.livescore.com,livescore_iframes,livescore_iframes.csv,livescore_iframes.txt,livescore 
+Entertainment,https://www.goojara.to,goojara_iframes,goojara_iframes.csv,goojara_iframes.txt,goojara 
+Entertainment,https://aniwatchtv.to,aniwatch_iframes,aniwatch_iframes.csv,aniwatch_iframes.txt,aniwatch 
+Entertainment,https://www.netflix.com,netflix_iframes,netflix_iframes.csv,netflix_iframes.txt,netflix 
+Entertainment,https://www.primevideo.com,primevideo_iframes,primevideo_iframes.csv,primevideo_iframes.txt,primevideo 
+Online Retail,https://www.amazon.com.tr,amazon_iframes,amazon_iframes.csv,amazon_iframes.txt,amazon 
+Online Retail,https://www.myntra.com,myntra_iframes,myntra_iframes.csv,myntra_iframes.txt,myntra 
+Online Retail,https://es.aliexpress.com,aliespress_iframes,aliespress_iframes.csv,aliespress_iframes.txt,aliespress 
+Online Retail,https://www.ebay.com,ebay_iframes,ebay_iframes.csv,ebay_iframes.txt,ebay 
+Government,https://www.gov.uk,govuk_iframes,govuk_iframes.csv,govuk_iframes.txt,govuk 
+Government,https://www.turkiye.gov.tr,turiyegov_iframes,turiyegov_iframes.csv,turiyegov_iframes.txt,turiyegov 
+Government,https://www.gov.br,govbr_iframes,govbr_iframes.csv,govbr_iframes.txt,govbr 
+Government,https://pubmed.ncbi.nlm.nih.gov,pubmed_iframes,pubmed_iframes.csv,pubmed_iframes.txt,pubmed 
+Weather,https://www.tjk.org,tjk_iframes,tjk_iframes.csv,tjk_iframes.txt,tjk 
+Weather,https://weather.com,weather_iframes,weather_iframes.csv,weather_iframes.txt,weather 
+Weather,https://weathernews.jp,weathernews_iframes,weathernews_iframes.csv,weathernews_iframes.txt,weathernews 
+Weather,https://www.theweathernetwork.com,weathernetwork_iframes,weathernetwork_iframes.csv,weathernetwork_iframes.txt,weathernetwork 
+

@@ -1,0 +1,1 @@
+['<iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MGW6C35" height="0" width="0" class="gtm" style="border:0"></iframe>']

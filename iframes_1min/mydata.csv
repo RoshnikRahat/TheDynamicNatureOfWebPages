@@ -1,0 +1,4 @@
+CATEGORY,WEBSITE,CSV,CSV Path,Txt Path,WebName
+Sports,https://www.cricbuzz.com,crcibuzz_iframes,crcibuzz_iframes.csv,crcibuzz_iframes.txt,crcibuzz 
+Weather,https://www.theweathernetwork.com,weathernetwork_iframes,weathernetwork_iframes.csv,weathernetwork_iframes.txt,weathernetwork 
+
